@@ -1,6 +1,7 @@
 # CrickBuzz-Clone          --Schematics--
 ==================================================================
 
+**Check in edit mode for better view**
 
 **1. GULSHAN-----------------------**
       login
@@ -15,6 +16,7 @@
        
        
        
+       
 **2. Rushikesh-----------------------**                
         Crickbuzz landing page                                                 **#confirm** page width with vinay
             -functionalities
@@ -23,6 +25,8 @@
                 complete imitation of website
                                                                                   -optional  functionalities of all button
                                                                                              feature matches arrow function
+                                                                                             
+                                                                                             
 **3. Vinay-----------------------**               
         Crickbuzz premium page                                                **#confirm** page width with rushikesh
             -functionalities
@@ -31,13 +35,14 @@
                   show my account & logout select when hover (on profile button) (only if logged in)                         same as rushikesh)
                   shows only editorials if editorial is selected (present below the crickbuzz + heading) 
                                                                                     -optional functionalities    play videos embeded in it
-4. Nidhish----------------------- 
-
+                                                                                    
+                                                                                    
+**4. Nidhish-----------------------**
       Payment page
       accepted cards - hardcode
       full payment gateway - if information correct otp page then premium page
                            - landing page after  3 fail attempts 
-      modify local storage and .   
+      modify local storage 
       
       
 <!-- feel free to make changes below-      
