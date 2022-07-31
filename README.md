@@ -28,10 +28,10 @@
             -functionalities
                   doesnt show pro content till it is login and subscribed.
                   remove pro banner if pro is subscribed
-                  show my account & logout select when hover (on profile button) (only if logged in)                          **(same as rushikesh)**
+                  show my account & logout select when hover (on profile button) (only if logged in)                         same as rushikesh)
                   shows only editorials if editorial is selected (present below the crickbuzz + heading) 
                                                                                     -optional functionalities    play videos embeded in it
-**4. Nidhish-----------------------** 
+4. Nidhish----------------------- 
 
       Payment page
       accepted cards - hardcode
