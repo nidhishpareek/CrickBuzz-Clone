@@ -24,8 +24,6 @@
                                                                                   -optional  functionalities of all button
                                                                                              feature matches arrow function
 **3. Vinay-----------------------**               
-
-
         Crickbuzz premium page                                                **#confirm** page width with rushikesh
             -functionalities
                   doesnt show pro content till it is login and subscribed.
