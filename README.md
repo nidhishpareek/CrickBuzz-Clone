@@ -32,7 +32,7 @@
       Payment page
       accepted cards - hardcode
       full payment gateway - if information correct otp page then premium page
-                           - landing page after  3 fail attempts
+                           - landing page after  3 fail attempts 
       modify local storage and .   
       
       
