@@ -1,5 +1,7 @@
 # CrickBuzz-Clone          --Schematics--
 ==================================================================
+
+
 **1. GULSHAN-----------------------**
       login
           functionalities
@@ -12,6 +14,7 @@
               - contain buttons for login, crickbuzz premium, landing page 
        
        
+       
 **2. Rushikesh-----------------------**                
         Crickbuzz landing page                                                 **#confirm** page width with vinay
             -functionalities
@@ -20,7 +23,9 @@
                 complete imitation of website
                                                                                   -optional  functionalities of all button
                                                                                              feature matches arrow function
-**3. Vinay-----------------------**                                                                                                   
+**3. Vinay-----------------------**               
+
+
         Crickbuzz premium page                                                **#confirm** page width with rushikesh
             -functionalities
                   doesnt show pro content till it is login and subscribed.
@@ -29,6 +34,7 @@
                   shows only editorials if editorial is selected (present below the crickbuzz + heading) 
                                                                                     -optional functionalities    play videos embeded in it
 **4. Nidhish-----------------------** 
+
       Payment page
       accepted cards - hardcode
       full payment gateway - if information correct otp page then premium page
