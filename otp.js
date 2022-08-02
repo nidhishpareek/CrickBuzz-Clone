@@ -29,6 +29,7 @@ for (let i = 0; i < inputs.length; i++) {
       inputs[i].value = ''; 
     }
   });
+  //changing box if there is input of otp
   inputs[i].addEventListener('input', function() {
     if (i === inputs.length - 1 && inputs[i].value !== '') {
       return true;
@@ -38,6 +39,7 @@ for (let i = 0; i < inputs.length; i++) {
   });
 }
 // for checking the otp
+
 document.querySelector("form").addEventListener("submit",check)
 function check(){
     event.preventDefault();
@@ -51,7 +53,7 @@ function check(){
         window.location.href="cricPlus.html"
         return true;
     }else{
-        alert("wrong OTP");
+        alert("wrong OTP or OTP is missing");
     }
 }
 document.querySelector("#resend").addEventListener("click",SendOtpAgain)
