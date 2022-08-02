@@ -1,3 +1,4 @@
+//DUMMMY PAYMENT CARD DATA HARDCODING
 var paymentDatabase = [
   {
     cardNumber: "123412341234",
@@ -15,14 +16,28 @@ var paymentDatabase = [
     cardCVV: 321,
   },
 ];
+
+//EXTRACTING DATES FOR THE PLAN DURATION
+{
+  date = new Date();
+  year = date.getFullYear();
+  month = date.getMonth() + 1;
+  day = date.getDate();
+  document.getElementById("todaysdate").innerHTML =
+    day + "/" + month + "/" + year;
+  document.getElementById("planexpirydate").innerHTML =
+    day + "/" + month + "/" + (year + 10);
+}
+
+//PAYMENT LOGIC PROGRAMMING STARTED
 localStorage.setItem("paymentDatabase", paymentDatabase);
 document.querySelector("form").addEventListener("submit", getCredentials);
 var failedPayment = 0;
 function getCredentials(event) {
   event.preventDefault();
   if (failedPayment >= 5) {
-    confirm("Payment failed due to wrong credentaials");
-    // window.location.href = "index.html"
+    confirm("Payment failed due to wrong credentaials.");
+    window.location.href = "index.html";
   }
 
   var cardHolder = document.querySelector("#cardHolder").value;
@@ -35,8 +50,18 @@ function getCredentials(event) {
     cardExpiry: cardExpiry,
     cardCVV: cardCVV,
   };
+  if(cardHolder == "" || cardExpiry =="" || cardCVV ==""|| cardNumber==""){
+    confirm("Please fil all the Details."); return;
+  }
+  var boxstatus = document.getElementById("agreetnc");
+  console.log(boxstatus);
+  if (!boxstatus.checked) {
+    confirm("Please accept Terms & Conditions.");
+    return; 
+  }
   console.log(cardObject);
   localStorage.setItem("cardinfo", JSON.stringify(cardObject));
+
   checkCredentials(cardObject);
 }
 
