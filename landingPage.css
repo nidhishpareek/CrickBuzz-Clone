@@ -1,0 +1,212 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body {
+    background-color: rgba(215, 221, 215, 0.877);
+}
+
+#featuredMatches {
+    width: 79.3%;
+    margin: auto;
+    background-color: white;
+    margin-bottom: -20px;
+    padding-top: 2px;
+    padding-left: 10px;
+    color: #008080;
+    font-size: 12px;
+}
+
+#containerFrontPage {
+    width: 80%;
+    height: 100vh;
+
+    margin: auto;
+    display: grid;
+
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 160px;
+    gap: 5px;
+    grid-template-areas:
+        "a a a a a a a a a a a a"
+        "b b b c c c c c e e e e"
+        "b b b c c c c c e e e e"
+        "b b b c c c c c e e e e"
+        "y y y y y y y y y y y y"
+        "y y y y y y y y y y y y "
+        "y y y y y y y y y y y y";
+
+}
+.sliderImg{
+    width: 43px;
+    height: 43px;
+    display: block;
+    margin: auto;
+    margin-top: 70%;
+    cursor: pointer;
+}
+
+#scoresBox {
+    grid-area: a;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 0px;
+    font-size: 14px;
+}
+
+#scoresBox span {
+    color: #a36501;
+}
+
+#scoresBox>div {
+    border-right: 1px solid #ecebeb;
+    margin-top: 20px;
+    line-height: 1.4;
+    margin: 15px 0;
+    padding: 0 20px;
+    height: 60%;
+    position: relative;
+}
+
+#latestNewsBox {
+    grid-area: b;
+    background-color: white;
+
+}
+
+#thinkTankBox {
+    grid-area: c;
+    background-color: white;
+
+}
+
+#featuredVideos {
+    grid-area: e;
+    background-color: white;
+
+
+}
+
+
+.tealHeading {
+    margin-left: 10px;
+    color: teal;
+}
+
+.newsTitle {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.newsDate {
+    margin-left: 20px;
+    color: gray;
+}
+
+.line {
+    border: 0.05px solid rgba(128, 128, 128, 0.185);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.endLine {
+    border: 2px solid rgba(128, 128, 128, 0.295);
+}
+
+.latestPhotosImg {
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    border-radius: 3px;
+}
+
+
+.moreMatches {
+    color: blue;
+    margin-left: 20px;
+}
+
+.newthinkTankBox {
+    margin-left: 20px;
+    color: gray;
+}
+
+.thinkTankImf {
+    margin: auto;
+    display: block;
+    border-radius: 3px;
+    cursor: pointer;
+
+}
+
+.thinkTankHeading {
+    margin-left: 20px;
+    margin-right: 20px;
+    text-decoration: underline;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+.ThinkTankBoxBlueText {
+    color: blue;
+    margin-left: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+
+}
+
+.thinkTankLineThrough {
+    border: .5px solid rgba(128, 128, 128, 0.219);
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.additionalDivFlexBox {
+    display: flex;
+}
+
+.additionalDivImg {
+    margin-left: 10px;
+    cursor: pointer;
+
+}
+
+.additionalDivH4 {
+    margin-left: 10px;
+}
+
+.latestPhotosLineDiv {
+    border: .5px solid rgba(153, 149, 149, 0.219);
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+.specialsDiv {
+    display: block;
+    margin: auto;
+    border-radius: 3px;
+    cursor: pointer;
+
+}
+
+.videoSection {
+    display: block;
+    margin: auto;
+}
+
+.moreVidsBtn {
+    background-color: #009270;
+    color: white;
+    border: 0px;
+    margin-left: 33%;
+    padding: 10px 18px;
+    font-size: 15px;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
