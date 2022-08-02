@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Page</title>
+    <link rel="stylesheet" href="PaymentGateway.css">
+</head>
+<body>
+    <form>
+        <h1>Payment Portal</h1>
+        <label for="">Card Holder's Name</label>
+        <input type="text" id="cardHolder" placeholder="Card Holder's Name">
+        <label for="">Card Number</label>
+        <input type="number" id="cardNumber" maxlength="12" minlength="20"  placeholder="XXXX-XXXX-XXXX-XXXX">
+        <div>
+            <div>
+                <label for="">Expiry</label>
+                <input type="text"  name="" id="cardExpiry" min="08-22" max="08-45" minlength="5" maxlength="5" placeholder="MM/YY">
+            </div>
+            <div>
+                <label for="">CVV</label>
+                <input type="number" id="cardCVV" min="000" max="999" placeholder="CVV">
+            </div>
+        </div>
+        <input type="submit" value="Proceed" id="fetchdata">
+    </form>
+</body>
+</html>
+<script src="PaymentGateway.js"></script>
