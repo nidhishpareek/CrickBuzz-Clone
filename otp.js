@@ -48,7 +48,7 @@ function check(){
     }
     let realOtp =document.getElementById("otp_show").innerText;
     if(realOtp==inputOtp){
-        window.location.href="index.html"
+        window.location.href="cricPlus.html"
         return true;
     }else{
         alert("wrong OTP");
