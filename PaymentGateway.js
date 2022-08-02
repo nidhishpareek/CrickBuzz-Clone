@@ -24,9 +24,9 @@ var paymentDatabase = [
   month = date.getMonth() + 1;
   day = date.getDate();
   document.getElementById("todaysdate").innerHTML =
-    day + "/" + month + "/" + year;
+    day + "/ " + month + "/ " + year;
   document.getElementById("planexpirydate").innerHTML =
-    day + "/" + month + "/" + (year + 10);
+    day + "/ " + month + "/ " + (year + 10);
 }
 
 //PAYMENT LOGIC PROGRAMMING STARTED
@@ -75,7 +75,7 @@ function checkCredentials(cardObject) {
   });
 
   if (cardMatch != 0) {
-    window.location.href = "otp.html";
+    window.location.href = "paymentotp.html";
   } else {
     confirm("You have entered WRONG Payment Details");
     failedPayment++;

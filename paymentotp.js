@@ -6,7 +6,7 @@ function checktransactionOTP() {
   if (inputtransactionotp == "1234") {
     localStorage.setItem("paymentstatus", true);
     alert("Payment Sucessfull");
-    window.location.href = "men.html";
+    window.location.href = "cricPlus.html";
   } else {
     alert("Payment Failed");
     window.location.replace("PaymentGatway.html");
