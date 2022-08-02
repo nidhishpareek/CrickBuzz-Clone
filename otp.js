@@ -12,8 +12,3 @@ function checktransactionOTP() {
     window.location.replace("PaymentGatway.html");
   }
 }
-<form action="">
-<label for="">Enter Otp</label>
-<input type="number" id="transactionOTP" max="9999" min="1000" />
-<input type="submit" name="" id="" />
-</form>
