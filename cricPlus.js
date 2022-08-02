@@ -499,7 +499,8 @@ function removeObject(index){
 
 
 // to show or hide premium content on login.
-// localStorage.setItem("paymentstatus",true);
+
+// localStorage.setItem("paymentstatus",false);
 
 let login_status = localStorage.getItem("paymentstatus");
 
