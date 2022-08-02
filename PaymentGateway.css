@@ -154,6 +154,9 @@ input[type="checkbox"]:checked {
   #backbtn img {
     justify-self: center;
   }
+  #backbtn+img{
+    margin: auto;
+  }
   #planinfo h3 {
     margin-top: 10px;
     margin-bottom: 10px;
