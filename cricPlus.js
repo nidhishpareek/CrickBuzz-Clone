@@ -393,7 +393,7 @@ let primumContent=[
     },
     {
       "cb-lst-img src": "https://www.cricbuzz.com/a/img/v1/245x182/i1/c227751/can-india-go-one-step-further.jpg",
-      "cb-nws-time": "WV Raman Reflections",
+      "cb-nws-time": "Reflections",
       "cb-nws-hdln-ancr": "What will be the key for India in the World Cup?",
       "cb-nws-hdln-ancr href": "https://www.cricbuzz.com/cricket-news/121321/what-will-be-the-key-for-india-in-the-icc-womens-world-cup-2022",
       "cb-nws-intr": "The coach of the India women's team until recently gives an insight into what could give India an edge in the Women's World Cup, 2022",
@@ -441,14 +441,19 @@ let primumContent=[
     }
   ];
 
-
+//filtering data.
+ primumContent= primumContent.filter(function(ele){
+    return ele["cb-lst-img src"]!="";
+ })
 
   
 //   JSON file ended
-appenddata(primumContent);
-function appenddata(primumContent){
+displaydata(primumContent);
+function displaydata(arr){
 
-   primumContent.map((ele,index)=>{
+  document.getElementById("content").innerHTML="";
+
+  arr.map((ele,index)=>{
        //creating element.
        let divMain=document.createElement("div");
        let div1=document.createElement("div");
@@ -459,14 +464,10 @@ function appenddata(primumContent){
        let a2=document.createElement("a");
        let p2=document.createElement("p");
 
-       //if image is missing then remove object.
-       if(ele["cb-lst-img src"]==""){
-         removeObject(index);
-         img.setAttribute("alt","this img is broken");
-       }else{
 
            img.setAttribute("src",ele["cb-lst-img src"]);
-       }
+           img.setAttribute("width","245px");
+  
 
        div2.setAttribute("class","pr_card_content");
        p1.innerText=ele["cb-nws-time"];
@@ -494,4 +495,80 @@ function appenddata(primumContent){
 function removeObject(index){
     primumContent.splice(index,1);
 }
- 
+
+
+
+// to show or hide premium content on login.
+// localStorage.setItem("paymentstatus",true);
+
+let login_status = localStorage.getItem("paymentstatus");
+
+
+if(login_status==="true"){
+  document.querySelector(".container").style.display="none";
+}else{
+  
+  document.querySelector(".cricPlus").style.display="none";
+}
+
+
+
+//all filter functions.
+
+function allrestore(){
+  displaydata(primumContent);
+}
+
+function reflection(){
+  let reflection=primumContent.filter(function(ele){
+     return ele["cb-nws-time"].toUpperCase()=="Reflections".toUpperCase();
+  });
+
+  displaydata(reflection);
+}
+
+
+function inside_story(){
+  let inside_story=primumContent.filter(function(ele){
+     return ele["cb-nws-time"].toUpperCase()=="Inside Story".toUpperCase();
+  });
+
+  displaydata(inside_story);
+}
+
+
+function think_tank(){
+  let think_tank=primumContent.filter(function(ele){
+     return ele["cb-nws-time"].toUpperCase()=="Think Tank".toUpperCase();
+  });
+
+  displaydata(think_tank);
+}
+
+
+function dialogue_room(){
+  let dialogue_room=primumContent.filter(function(ele){
+     return ele["cb-nws-time"].toUpperCase()=="Dialogue Room".toUpperCase();
+  });
+
+  displaydata(dialogue_room);
+}
+
+
+function cricbuzz_rewind(){
+  let cricbuzz_rewind=primumContent.filter(function(ele){
+     return ele["cb-nws-time"].toUpperCase()=="Cricbuzz Rewind".toUpperCase()||
+     ele["cb-nws-time"].toUpperCase()=="Cricbuzz plus".toUpperCase();
+  });
+
+  displaydata(cricbuzz_rewind);
+}
+
+
+function ipl_22(){
+  let ipl_22=primumContent.filter(function(ele){
+     return ele["cb-nws-time"].toUpperCase()=="ipl".toUpperCase()
+  });
+
+  displaydata(ipl_22);
+}
