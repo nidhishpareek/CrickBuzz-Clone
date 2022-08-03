@@ -134,15 +134,17 @@ body{
 #blackStrip div a{
     padding: 10px 10px;
     color: white;
-    font-size: 13px;
+    font-size: 12px;
     text-decoration: none;
 }
 #blackStrip div>a:first-child{
+    padding:10px 20px;
     background-color: #333;
 }
 #blackStrip button>a{
     padding: 10px 20px;
     text-decoration: none;
+    font-size: 12px;
     background-color: #4a4a4a;
     color:white;
 }
