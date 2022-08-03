@@ -25,8 +25,11 @@ for (let i = 0; i < inputs.length; i++) {
       inputs[i - 1].focus();
     } else if (event.key === "ArrowRight" && i !== inputs.length - 1) {
       inputs[i + 1].focus();
-    } else if (event.key != "ArrowLeft" && event.key != "ArrowRight") {
+    } else if (event.key != "ArrowLeft" && event.key != "ArrowRight"  && event.key!="Enter") {
       inputs[i].value = ''; 
+    } else if (event.key !="Enter"){
+    inputs[i].focus();
+      check();
     }
   });
   //changing box if there is input of otp
