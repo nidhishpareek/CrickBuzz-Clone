@@ -1,6 +1,7 @@
 #landingPage{
-    max-width: 62%;
+    max-width: 980px;
     margin:0 auto;
+    overflow:visible;
 }
 body{
     background: #e3e6e3;
@@ -23,11 +24,8 @@ body{
     align-items: center;
 }
 #icons{
-    display: flex;
-    flex-direction: row;
     align-self: center;
-    padding: 10px;
-    column-gap: 10px;
+     padding: 10px; 
 }
 #icons>i{
     color: #fff;
@@ -157,4 +155,40 @@ body{
 }
 #blackStrip button>a:hover{
     background-color: #444;
+}
+#icons{
+    display: inline-block ;
+    position: relative;
+}
+#profileIcon{
+    margin: 5px 5px;
+}
+#loginStatus{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: max-content;
+    z-index: 1;
+}
+#loginStatus a {
+    color: black;
+    font-size: 14px;
+    padding: 6px 15px;
+    text-decoration: none;
+    display: block;
+}
+#loginStatus a:hover {
+    background-color: #ddd;
+}
+#icons:hover #loginStatus{
+    display: block;
+}
+#search{
+    color: #fff;
+    padding: 12px 5px;
+    cursor: pointer;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    margin-right: -30px;
 }

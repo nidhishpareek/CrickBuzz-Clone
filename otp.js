@@ -25,9 +25,12 @@ for (let i = 0; i < inputs.length; i++) {
       inputs[i - 1].focus();
     } else if (event.key === "ArrowRight" && i !== inputs.length - 1) {
       inputs[i + 1].focus();
-    } else if (event.key != "ArrowLeft" && event.key != "ArrowRight") {
+    } else if (event.key != "ArrowLeft" && event.key != "ArrowRight" && event.key!="Enter") {
       inputs[i].value = ''; 
-    }
+    } else if (event.key =="Enter"){
+      inputs[i].focus();
+        check();
+      }
   });
   //changing box if there is input of otp
   inputs[i].addEventListener('input', function() {
@@ -50,9 +53,11 @@ function check(){
     }
     let realOtp =document.getElementById("otp_show").innerText;
     if(realOtp==inputOtp){
-        window.location.href="cricPlus.html"
+        window.location.href="navbar.html"
+        localStorage.setItem("loginStatus",true);
         return true;
     }else{
+      localStorage.setItem("loginStatus",false);
         alert("wrong OTP or OTP is missing");
     }
 }
