@@ -28,7 +28,15 @@ var paymentDatabase = [
   document.getElementById("planexpirydate").innerHTML =
     day + "/ " + month + "/ " + (year + 10);
 }
-
+//CHECKING PLANRATE IN STORAGE
+{
+  var checkforplanrate = JSON.parse(localStorage.getItem("planrate"));
+  console.log(typeof undefined);
+  if (checkforplanrate != undefined) {
+    document.getElementById("amountpayable").innerText = "₹"+checkforplanrate;
+    document.getElementById("pricetodeduct").innerHTML = "Up to ₹"+ checkforplanrate;
+  }
+}
 //PAYMENT LOGIC PROGRAMMING STARTED
 localStorage.setItem("paymentDatabase", paymentDatabase);
 document.querySelector("form").addEventListener("submit", getCredentials);
@@ -50,14 +58,20 @@ function getCredentials(event) {
     cardExpiry: cardExpiry,
     cardCVV: cardCVV,
   };
-  if(cardHolder == "" || cardExpiry =="" || cardCVV ==""|| cardNumber==""){
-    confirm("Please fil all the Details."); return;
+  if (
+    cardHolder == "" ||
+    cardExpiry == "" ||
+    cardCVV == "" ||
+    cardNumber == ""
+  ) {
+    confirm("Please fil all the Details.");
+    return;
   }
   var boxstatus = document.getElementById("agreetnc");
   console.log(boxstatus);
   if (!boxstatus.checked) {
     confirm("Please accept Terms & Conditions.");
-    return; 
+    return;
   }
   console.log(cardObject);
   localStorage.setItem("cardinfo", JSON.stringify(cardObject));

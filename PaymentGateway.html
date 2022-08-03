@@ -23,13 +23,13 @@
             alt="CrickbuzzLogo"
           />
         </div>
-
+        <div id="detailtree">
         <h3>Enter new Card</h3>
 
-        <p>Total Payable Amount <span>₹999</span></p>
+        <p>Total Payable Amount <span id="amountpayable">₹999</span></p>
         <div class="plandetailstable">
           <p>Amount chargeable as per plan</p>
-          <p>Up to ₹999</p>
+          <p id="pricetodeduct">Up to ₹999</p>
         </div>
         <div class="plandetailstable">
           <p>Start Date</p>
@@ -39,6 +39,7 @@
           <p>End Date</p>
           <p id="planexpirydate"></p>
         </div>
+      </div>
       </div>
 
       <div id="paymentformcontainer">
@@ -62,6 +63,7 @@
           </div>
         </div>
         <form>
+          
           <label for="">New Card</label>
           <input
             type="number"
