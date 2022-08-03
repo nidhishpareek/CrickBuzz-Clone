@@ -31,6 +31,7 @@ for (let i = 0; i < inputs.length; i++) {
       inputs[i].focus();
         check();
       }
+
   });
   //changing box if there is input of otp
   inputs[i].addEventListener('input', function() {
