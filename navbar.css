@@ -1,5 +1,5 @@
 #landingPage{
-    max-width: 980px;
+    max-width: 62%;
     margin:0 auto;
 }
 body{
@@ -119,7 +119,7 @@ body{
 }
 
 #blackStrip{
-    width: 980px;
+    width: 100%;
     background: #4a4a4a;
     height: 39px;
     display: flex;
