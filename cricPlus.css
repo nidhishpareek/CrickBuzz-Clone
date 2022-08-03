@@ -1,15 +1,15 @@
 * {
   margin: 0%;
   padding: 0%;
-  font-family:helvetica,"Segoe UI",Arial,sans-serif;
+  font-family: helvetica, "Segoe UI", Arial, sans-serif;
   box-sizing: border-box;
 }
 body {
-  width: 63%;
-  
+  width: 980px;
+
   margin: auto;
   background: #e3e6e3;
-  font-family:helvetica,"Segoe UI",Arial,sans-serif;
+  font-family: helvetica, "Segoe UI", Arial, sans-serif;
   color: #222;
   font-size: 14px;
   line-height: 1.5;
@@ -69,61 +69,57 @@ h2 {
 }
 
 h1 {
-    font-size: 36px;
-    line-height: 42px;
-    margin: 0;
+  font-size: 36px;
+  line-height: 42px;
+  margin: 0;
 }
-.cricPlus{
-    background-color: #fff;
+.cricPlus {
+  background-color: #fff;
 }
-.cricPlus h1{
-    font-size: 24px;
-    margin: 0px 0px 5px 10px;
+.cricPlus h1 {
+  font-size: 24px;
+  margin: 0px 0px 5px 10px;
 }
 
-.cricPlus>div:first-child>div{
-    font-size: 14px;
-    display: flex;
-    margin: 15px 0px 5px 0px;
+.cricPlus > div:first-child > div {
+  font-size: 14px;
+  display: flex;
+  margin: 15px 0px 5px 0px;
 }
-.cricPlus>div>div>p{
-    margin-left: 10px;
-   
+.cricPlus > div > div > p {
+  margin-left: 10px;
 }
-.cricPlus>div>div>p:hover{
+.cricPlus > div > div > p:hover {
   color: #009270;
   border-bottom: 2px solid #009270;
   padding-bottom: 5px;
   font-weight: 600;
 }
-#filter-option{
-    padding: 20px 20px 0px;
-    display: flex;
-    
-
+.filter {
+  padding: 20px 20px 0px;
+  display: flex;
 }
-#filter-option>p{
+.filter > p {
   margin-right: 15px;
   font-weight: 400;
 }
-#filter-option>p:hover{
+.filter > p:hover {
   background-color: #004c3a;
   color: #fff;
   cursor: pointer;
 }
-.cricPlus>div>p{
-    border-radius: 20px;
-    background-color: #CFE0DB;
-    padding: 5px 20px;
+.cricPlus > div > p {
+  border-radius: 20px;
+  background-color: #cfe0db;
+  padding: 5px 20px;
 }
 
-
 /* prime content css */
-#content{
+#content {
   width: 100%;
   padding: 10px 3px 15px 4px;
 }
-#content>div{
+#content > div {
   width: 97%;
   margin: auto;
   border-radius: 4px;
@@ -133,40 +129,117 @@ h1 {
   display: flex;
 }
 
-#content>div>div>img{
- height: 100%;
+#content > div > div > img {
+  height: 100%;
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
 }
-.cricPlus a{
+.cricPlus a {
   text-decoration: none;
-  color: black ;
+  color: black;
 }
-a{
+a {
   text-decoration: none;
   color: #fff;
 }
-.pr_card_content{
+.pr_card_content {
   margin-left: 10px;
   padding: 25px 20px 20px 15px;
 }
 
-.pr_card_content>p{
+.pr_card_content > p {
   color: #666;
   padding-bottom: 5px;
   text-transform: uppercase;
   font-size: 12px;
 }
-.pr_card_title{
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 24px;
-    color: #222;
-    padding-bottom: 5px;
-    display: block;
+.pr_card_title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+  color: #222;
+  padding-bottom: 5px;
+  display: block;
 }
-.pr_card_title+a{
+.pr_card_title + a {
   color: #666;
   display: inline;
   padding-bottom: 5px;
+}
+
+@media only screen and (max-width: 850px) {
+  body {
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+  }
+  .container{
+    width: 100%;
+    display: block;
+    height: auto;
+    text-align: center;
+  }
+  .container h2{
+    margin: 4px;
+  }
+  .cricPlus{
+    background-color:#4e585f ;
+  }
+  .pr_card_content > p {
+    display: none;
+  }
+  .pr_card_title + a {
+    display: none;
+  }
+  #filter-option {
+  width: 95%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 10px;
+  }
+  #filter-hide{
+    display: none;
+  }
+  #content {
+    width: 100%;
+    padding: 0px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #content > div {
+    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 3px;
+    background-color:#fff ;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+  .cricPlus > div:first-child {
+    text-align: center;
+    background-color: #4e585f;
+    color: #fff;
+  }
+  .cricPlus img {
+    width: 100%;
+  }
+  hr {
+    display: none;
+  }
+  .cricPlus > div > div > p {
+    display: none;
+  }
+  #edito {
+    background-color: #335a7b;
+    padding: 10px 0px 5px 0px;
+  }
+  #active {
+    display: block;
+    font-size: large;
+  }
+  
 }

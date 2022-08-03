@@ -472,11 +472,11 @@ function displaydata(arr){
        div2.setAttribute("class","pr_card_content");
        p1.innerText=ele["cb-nws-time"];
 
-       a1.setAttribute("href",ele["cb-nws-hdln-ancr href"]);
+      //  a1.setAttribute("href",ele["cb-nws-hdln-ancr href"]);
        a1.setAttribute("class","pr_card_title");
        a1.innerText=ele["cb-nws-hdln-ancr"];
 
-       a2.setAttribute("href",ele["cb-nws-hdln-ancr href"]);
+      //  a2.setAttribute("href",ele["cb-nws-hdln-ancr href"]);
        a2.innerText=ele["cb-nws-intr"];
 
        p2.innerText=ele["cb-nws-time 2"];
@@ -500,7 +500,7 @@ function removeObject(index){
 
 // to show or hide premium content on login.
 
-// localStorage.setItem("paymentstatus",false);
+// localStorage.setItem("paymentstatus",true);
 
 let login_status = localStorage.getItem("paymentstatus");
 
@@ -572,4 +572,18 @@ function ipl_22(){
   });
 
   displaydata(ipl_22);
+}
+
+
+
+//showing mobile view filter option 
+function filter_menu(){
+  if((document.querySelector(".filter").getAttribute("id"))=="filter-hide"){
+    
+     document.querySelector(".filter").setAttribute("id","filter-option");
+  }else{
+
+    document.querySelector(".filter").setAttribute("id","filter-hide");
+  }
+
 }

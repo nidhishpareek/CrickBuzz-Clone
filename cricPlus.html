@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="cricPlus.css" />
   </head>
   <body>
+    <!-- container start -->
     <div class="container">
       <div>
         <h2>
@@ -32,17 +33,19 @@
         />
       </div>
     </div>
+    <!-- container end -->
+    <!-- cricPlus start -->
     <div class="cricPlus">
       <div>
         <h1>Cricbuzz Plus</h1>
-        <div>
-          <p id="active">Editorials</p>
+        <div id="edito">
+          <p id="active" onclick="filter_menu()">Editorials</p>
           <p>Trending</p>
           <p>Videos</p>
         </div>
       </div>
       <hr />
-      <div id="filter-option">
+      <div class="filter" id="filter-hide">
         <p onclick="allrestore()">All</p>
         <p onclick="reflection()" >Reflections</p>
         <p onclick="inside_story()">Inside Story</p>
@@ -55,6 +58,9 @@
          <!-- Here All data appending -->
       </div>
     </div>
+    <!-- cricPlus End -->
+    <!-- mobile container -->
+    
   </body>
 </html>
 <script src="cricPlus.js"></script>
