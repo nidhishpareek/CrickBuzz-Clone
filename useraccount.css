@@ -1,0 +1,65 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+
+    background: #E3E6E3;
+    min-height: 100vh;
+    font-family: helvetica,"Segoe UI",Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+}
+#account_container{
+    width: 980px;
+    /* remove after */
+    height: 538px;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px 50px 75px;
+}
+#user_accout_main{
+    width: 880px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+
+}
+#my_account{
+    padding: 20px;
+    padding-top: 60px;
+    margin-right: 55px;
+    
+}
+#mylist>div{
+    padding: 10px 15px;
+    border: 1px solid #bababa;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+i{
+    margin-right: 5px;
+}
+
+.active{
+    color: white;
+    background-color:  #028062;
+
+}
+#side_div{
+
+    border: 1px solid green;
+    padding: 20px;
+    padding-top: 60px;
+}
+#line{
+    width: 71%;
+    border-bottom: 2px solid #bababa;
+    float: right;
+
+}
+#line+div{
+    margin-top: 30px;
+}
