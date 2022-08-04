@@ -9,6 +9,6 @@ function checktransactionOTP() {
     window.location.href = "cricPlus.html";
   } else {
     alert("Payment Failed");
-    window.location.replace("PaymentGatway.html");
+    window.location.replace("PaymentGateway.html");
   }
 }
