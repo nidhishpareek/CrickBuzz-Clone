@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Payment Page</title>
+    <style>
+      #container {
+        display: flex;
+        width: 780px;
+        height: 600px;
+        margin: auto;
+        border-radius: 10px;
+        justify-content: center;
+        align-items: center;
+        border-left: 6px solid rgb(72, 141, 221);
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        text-align: center;
+      }
+      label{
+        font-size: large;
+        font-weight: bolder;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+      input {
+        display: block;
+        padding: 10px;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+      } 
+      #submitotp {
+        background-color: rgb(72, 141, 221);
+        cursor: pointer;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <!-- <div id="otpbox"> -->
+      <form action="">
+        <label for="">Enter OTP</label>
+        <input type="number" id="transactionOTP" max="9999" min="1000" />
+        <input type="submit" name="" id="submitotp" />
+      </form>
+      <!-- </div> -->
+    </div>
+  </body>
+</html>
+<script src="paymentotp.js"></script>

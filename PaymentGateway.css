@@ -1,0 +1,180 @@
+* {
+  font-family: helvetica, "Segoe UI", Arial, sans-serif;
+}
+#container {
+  display: flex;
+  width: 780px;
+  margin: auto;
+  border-radius: 10px;
+  border-left: 6px solid rgb(72, 141, 221);
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+#planinfo {
+  /* border: 1px solid red; */
+  /* padding: 40px auto; */
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#planinfo div:first-child {
+  padding: 25px 15px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid green; */
+  
+}
+
+#planinfo img + p {
+  font-size: 12px;
+}
+#backbtn{
+  cursor: pointer;
+}
+#backbtn img {
+  width: 20px;
+  margin-right: 15px;
+}
+
+#backbtn + img {
+  width: 85px;
+  height: 40px;
+  margin: auto;
+  margin-right: 15px;
+}
+#detailtree{
+  overflow-y: scroll;
+  padding-inline: 20px;
+}
+
+#planinfo h3 {
+  padding-block: 20px;
+}
+#planinfo p span {
+  font-size: 20px;
+}
+#planinfo p {
+  font-size: 14px;
+}
+.plandetailstable {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  
+}
+.plandetailstable :nth-child(2) {
+  font-weight: 550;
+  width: max-content;
+  /* border: solid 1px red; */
+}
+.plandetailstable :first-child {
+  margin-right: 20px;
+  /* border: solid 1px red; */
+}
+
+/* THE FORM FORMETTING STARTS FROM HERE */
+#paymentformcontainer {
+  overflow-y: scroll;
+  width: 50%;
+  justify-content: center;
+  padding: 5%;
+  padding-block: 25px;
+}
+#headform {
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid green; */
+  font-size: 12px;
+  color: grey;
+  margin: 30px 0px;
+  margin-top: 10px;
+}
+#languageselect {
+  color: grey;
+  cursor: pointer;
+}
+#payformlanguage {
+  display: flex;
+  margin: auto;
+  /* color: black;     */
+}
+#payformlanguage > img {
+  width: 50px;
+}
+
+form {
+  /* border: 1px solid green; */
+  padding: 0px 10%;
+  font-size: 16px;
+}
+input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border-color: rgb(229, 226, 223);
+  border-style: groove;
+}
+label {
+  display: block;
+  width: 100%;
+  margin-bottom: 5px;
+  margin-bottom: 10px;
+  /* border: 1px solid cyan; */
+}
+#expcvv {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  /* border: 1px solid blue; */
+}
+#expcvv :first-child {
+  width: 120px;
+}
+#fetchdata {
+  background-color: rgb(74, 144, 226);
+  border: none;
+  color: rgb(130, 179, 234);
+  margin-bottom: 80px;
+  cursor: pointer;
+}
+#tnc {
+  display: flex;
+  text-justify: auto;
+  color: grey;
+  /* margin-top: 20px; */
+  margin-bottom: 10px;
+}
+#tnc > input {
+  width: 50px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+input[type="checkbox"]:checked {
+  background-color: gold;
+}
+@media screen and (max-width: 780px) {
+  #planinfo {
+    text-align: center;
+    justify-content: center;
+  }
+  #container {
+    display: block;
+    width: 90%;
+  }
+  #paymentformcontainer {
+    width: 90%;
+  }
+  #backbtn img {
+    justify-self: center;
+  }
+  #backbtn+img{
+    margin: auto;
+  }
+  #planinfo h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
