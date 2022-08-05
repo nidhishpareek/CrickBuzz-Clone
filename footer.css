@@ -1,0 +1,61 @@
+#landingPage{
+    max-width: 980px;
+    margin:0 auto;
+}
+body{
+    background: #e3e6e3;
+    font-family: helvetica,"Segoe UI",Arial,sans-serif;
+    color: #222;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+footer{
+    background-color: #4a4a4a;
+    width:100%;
+    position: fixed;
+    left:0;
+    bottom: 0;
+}
+#mainFoot{
+    width: 980px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#mainFoot>div>img{
+    padding:10px;
+    padding-top: 40px;
+}
+.footerTopic{
+    color:white;
+    text-align: left;
+    font-weight: bold;
+    padding-top: 20px;
+    /* border:2px white solid; */
+}
+.footerTopic p{
+    font-size: 16px;
+}
+.footerTopic ul{
+    list-style-type: none;
+    font-weight:lighter;
+    margin: 0;
+    padding: 0;
+}
+.footerTopic ul li{
+    padding-bottom: 10px;
+}
+.footerTopic ul li a{
+    text-decoration: none;
+    padding-bottom: 10px;
+    color:white;
+}
+i{
+    padding: 10px;
+}
+#bottomline{
+    color: white;
+    text-align: center;
+}
