@@ -24,9 +24,10 @@ body{
     justify-content: space-between;
     align-items: center;
 }
-#icons{
+#icons#icons#icons{
     align-self: center;
      padding: 10px; 
+     /* background-color: #fff; */
 }
 #icons>i{
     color: #fff;
