@@ -54,7 +54,7 @@ function check(){
     }
     let realOtp =document.getElementById("otp_show").innerText;
     if(realOtp==inputOtp){
-        window.location.href="navbar.html"
+        window.location.href="paymentPlanPage.html"
         localStorage.setItem("loginStatus",true);
         return true;
     }else{
