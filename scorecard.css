@@ -1,6 +1,13 @@
 body {
     background-color: rgba(215, 221, 215, 0.877);
     font-family: Arial, Helvetica, sans-serif;
+    width: 980px;
+    margin: auto;
+}
+#resultofmatch{
+    font-size: 16px;
+    margin-left: 10px;
+    font-weight: bolder;
 }
 
 table {
@@ -91,7 +98,7 @@ a {
 /* rightbox css starts here */
 #container {
     display: flex;
-
+    justify-content: center;
 }
 
 #rightBox {
@@ -127,7 +134,8 @@ a {
 
 #rightBox>div>div>img {
     display: block;
-    margin-left: 5%;
+    margin: auto;
+    margin-left: 20%;
     margin-top: 15%;
 }
 
@@ -139,6 +147,8 @@ a {
 
 .firstPara {
     cursor: pointer;
+    padding-right: 10px;
+    margin-left: -10px;
 }
 
 .firstPara+p {

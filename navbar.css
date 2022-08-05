@@ -1,4 +1,4 @@
-#landingPage{
+#landingPageheader{
     max-width: 980px;
     margin:0 auto;
     overflow:visible;
@@ -24,9 +24,10 @@ body{
     justify-content: space-between;
     align-items: center;
 }
-#icons{
+#icons#icons#icons{
     align-self: center;
      padding: 10px; 
+     /* background-color: #fff; */
 }
 #icons>i{
     color: #fff;
@@ -34,7 +35,9 @@ body{
     cursor: pointer;
 }
 #logo{
-    padding:1px 0 1px 20px;
+    padding:10px 0 1px 4px;  
+    align-items: center;
+    cursor: pointer;
 }
 .dropbtn{
     background-color: #009270;
@@ -193,3 +196,9 @@ body{
     align-items: center;
     margin-right: -30px;
 }
+
+/* @media only screen and (max-width: 850px){
+    #blackStrip{
+        display: block;
+    }
+} */
