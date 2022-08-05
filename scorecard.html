@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scorecard</title>
+    <link href="scorecard.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="https://www.cricbuzz.com/images/cb_favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="navbar.css">
+</head>
+
+<body>
+    <div id="landingPage">
+        <header id="top">
+            <img id="logo" width="100px"src="https://www.cricbuzz.com/images/cb_logo.svg" alt="logo">
+            <div id="navbar">
+                <div class="dropdown">
+                    <button class="dropbtn"><a href="#">Live Scores</a></button>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn"><a href="#">Schedule</a></button>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn"><a href="#">Archives</a></button>
+                </div>
+                <div class="dropdown">
+                        <button class="dropbtn"><a href="">News <i class="fa-solid fa-caret-down"></i></a></button>
+                    <div class="dropdown_value">
+                        <a href="#">All Stories</a>
+                        <a href="#">Cricbuzz Plus</a>
+                        <a href="#">Latest News</a>
+                        <a href="#">Topics</a>
+                        <a href="#">Spotlight</a>
+                        <a href="#">Opinions</a>
+                        <a href="#">Specials</a>
+                        <a href="#">Stats & Analysis</a>
+                        <a href="#">Interviews</a>
+                        <a href="#">Live Blogs</a>
+                        <a href="#">Harsha Bhogle</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn"><a href="">Series <i class="fa-solid fa-caret-down"></i></a></button>
+                <div class="dropdown_value">
+                    <a href="#">India tour of WestIndies, 2022</a>
+                    <a href="#">Pakistan tour of Sri Lanka, 2022</a>
+                    <a href="#">South Africa tour of England, 2022</a>
+                    <a href="#">Bangladesh tour of Zimbabwe, 2022</a>
+                    <a href="#">New Zealand tour of Scotland, 2022</a>
+                    <a href="#">Tamil Nadu Premier League 2022</a>
+                    <a href="#">County Championship Division One 2022</a>
+                    <a href="#">Commonwealth Games Womens Cricket Competition 2022</a>
+                    <a href="#">All Series</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn"><a href="">Teams <i class="fa-solid fa-caret-down"></i></a></button>
+                <div class="dropdown_val">
+                    <div class="team">
+                        <h4>TEST TEAMS</h4>
+                        <a href="#">India</a>
+                        <a href="#">Ireland</a>
+                        <a href="#">Pakistan</a>
+                        <a href="#">Australia</a>
+                        <a href="#">Sri Lanka</a>
+                        <a href="#">Bangladesh</a>
+                        <a href="#">England</a>
+                        <a href="#">West Indies</a>
+                        <a href="#">South Africa</a>
+                        <a href="#">Zimbabwe</a>
+                        <a href="#">New Zealand</a>
+                        <a href="#">Afghanistan</a>
+                    </div>
+                    <div class="team">
+                        <h4>ASSOCIATE</h4>
+                        <a href="#">Italy</a>
+                        <a href="#">Botswana</a>
+                        <a href="#">Belgium</a>
+                        <a href="#">Iran</a>
+                        <a href="#">Denmark</a>
+                        <a href="#">Singapore</a>
+                        <a href="#">Namibia</a>
+                        <a href="#">Uganda</a>
+                        <a href="#">Malasiya</a>
+                        <a href="#">Nepal</a>
+                        <a href="#">Germany</a>
+                        <a href="#">Canada</a>
+                    </div>
+                </div>
+            </div>                
+                <div class="dropdown">
+                    <button class="dropbtn"><a href="">Videos <i class="fa-solid fa-caret-down"></i></a></button>
+                    <div class="dropdown_value">
+                        <a href="#">All Videos</a>
+                        <a href="#">Categories</a>
+                        <a href="#">Playlists</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn"><a href="">Rankings <i class="fa-solid fa-caret-down"></i></a></button>
+                <div class="dropdown_value">
+                    <a href="#">ICC Rankings - Men</a>
+                    <a href="#">ICC Rankings - Women</a>
+                </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn"><a href="">More <i class="fa-solid fa-caret-down"></i></a></button>
+                <div class="dropdown_value">
+                    <a href="#">World Test Championship</a>
+                    <a href="#">World Cup Super League</a>
+                    <a href="#">Quiz</a>
+                    <a href="#">Photos</a>
+                    <a href="#">Mobile Apps</a>
+                    <a href="#">Careers</a>
+                    <a href="#">Contact Us</a>
+                </div>
+                </div>
+                <button id="cricPlusbtn"><a href="cricPlus.html">Cricbuzz Plus</a></button>
+            </div>
+            <i  id="search" class="fa-solid fa-magnifying-glass "></i>
+            <div id="icons">
+                <i id="profileIcon" class="fa-solid fa-user "></i>
+                <div id="loginStatus">
+                    <a href="">My Account</a>
+                    <a href="">Sign Out</a>
+                </div>
+            </div>
+        </header>
+        <div id="blackStrip">
+            <div>
+                <a href="#">MATCHES</a>
+                <a href="#">WI vs IND - IND Won</a>
+                <a href="#">AUSW vs PAKW - Com...</a>
+                <a href="#">INDW vs BAW - Preview</a>
+                <a href="#">SOU vs WEF - Preview</a>
+                <a href="#">IRE vs RSA - Preview</a>
+            </div>
+                <button><a href="">ALL <i class="fa-solid fa-caret-down"></i></a></button>
+        </div>
+    </div>
+    <div id="container">
+        <div id="tbl">
+            <table>
+                <caption>India won by 7 wkts</caption>
+                <thead>
+                    <tr>
+                        <th colspan="6">West Indies Innings</th>
+                        <th colspan="2">164-5 (20 Ov)</th>
+                    </tr>
+                </thead>
+                <thead class="secondthead">
+                    <tr>
+                        <th colspan="3">Batter</th>
+                        <th>R</th>
+                        <th>B</th>
+                        <th>4s</th>
+                        <th>6s</th>
+                        <th>SR</th>
+                        <th></th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td><a class="textLink" href="">Brandon King</a></td>
+                        <td class="textColor" colspan="2">b Hardik Pandya</td>
+                        <td><strong>20</strong> </td>
+                        <td>20</td>
+                        <td>3</td>
+                        <td>0</td>
+                        <td>100.00</td>
+                    </tr>
+                    <tr>
+                        <td><a class="textLink" href="">K Mayers</a></td>
+                        <td class="textColor" colspan="2">c Pant b Bhuvneshwar</td>
+                        <td><b>73</b></td>
+                        <td>50 </td>
+                        <td>8</td>
+                        <td>4</td>
+                        <td>146.00</td>
+                    </tr>
+
+                    <tr>
+                        <td><a class="textLink" href="">Pooran (c)</a> </td>
+                        <td class="textColor" colspan="2">c Pant b Bhuvneshwar</td>
+                        <td><b>22</b></td>
+                        <td>23</td>
+                        <td>2</td>
+                        <td>1</td>
+                        <td>95.65</td>
+                    </tr>
+
+                    <tr>
+                        <td><a class="textLink" href="">Rovman Powell </a></td>
+                        <td class="textColor" colspan="2">c Deepak Hooda b Arshdeep Singh </td>
+                        <td><b>23</b></td>
+                        <td>14</td>
+                        <td>2</td>
+                        <td>1</td>
+                        <td>164.29</td>
+                    </tr>
+
+                    <tr>
+                        <td><a class="textLink" href="">Hetmyer </a></td>
+                        <td class="textColor" colspan="2">run out (Suryakumar Yadav/Pant)</td>
+                        <td><b>20</b></td>
+                        <td>12</td>
+                        <td>0</td>
+                        <td>2</td>
+                        <td>166.67</td>
+                    </tr>
+                    <tr>
+                        <td><a class="textLink" href="">Devon Thomas (wk) </a></td>
+                        <td class="textColor" colspan="2">not out</td>
+                        <td><b>0</b></td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0.00</td>
+                    </tr>
+                    <tr>
+                        <td><a class="textLink" href="">Holder</a>
+                        </td>
+                        <td class="textColor" colspan="2">not out</td>
+                        <td><b>1</b></td>
+                        <td>1</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>100.00</td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="4">Extras </td>
+                        <td colspan="6"> <b>5</b> (b 0, lb 3, w 2, nb 0, p 0)</td>
+                    </tr>
+                    <tr>
+                        <td colspan="4">Total </td>
+                        <td colspan="5"> <b>164</b> (5 wkts, 20 Ov)</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Did not Bat</td>
+                        <td colspan="5"><a href="" class="textLink">Dominic Drakes ,</a>
+                            <a href="" class="textLink">Akeal Hosein ,</a>
+                            <a href="" class="textLink">Alzarri Joseph ,</a>
+                            <a href="" class="textLink"> Obed McCoy</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="8" class="secondthead"><b>Fall Of Wickets</b></td>
+                    </tr>
+                    <tr>
+                        <td colspan="7">57-1 (<a href="" class="textLink">Brandon King</a>, 7.2), 107-2 (<a href=""
+                                class="textLink">Pooran</a>, 14.4), 128-3
+                            (<a href="" class="textLink">K Mayers</a>, 16.2), 162-4 (<a href="" class="textLink">Rovman
+                                Powell</a>, 19.3), 163-5 (<a href="" class="textLink">Hetmyer</a>, 19.5)</td>
+                    </tr>
+
+                    <thead class="secondthead">
+                        <tr>
+                            <th colspan="2">Bowler</th>
+                            <th>O</th>
+                            <th>M</th>
+                            <th>R</th>
+                            <th>W</th>
+                            <th>WD</th>
+                            <th>ECO</th>
+                        </tr>
+                    </thead>
+                    <tr>
+                        <td><a class="textLink" href="">Deepak Hooda</a></td>
+                        <td></td>
+                        <td>1</td>
+                        <td>0</td>
+                        <td>1</td>
+                        <td><b>1</b></td>
+                        <td>0</td>
+                        <td>1.00</td>
+                    </tr>
+                    <tr>
+                        <td><a class="textLink" href="">Bhuvneshwar</a></td>
+                        <td></td>
+                        <td>4</td>
+                        <td>0</td>
+                        <td>35</td>
+                        <td><b>2</b></td>
+                        <td>0</td>
+                        <td>8.80</td>
+                    </tr>
+                    <tr>
+                        <td><a class="textLink" href="">Avesh Khan</a></td>
+                        <td></td>
+                        <td>3</td>
+                        <td>0</td>
+                        <td>47</td>
+                        <td><b>0</b></td>
+                        <td>2</td>
+                        <td>15.70</td>
+                    </tr>
+                    <tr>
+                        <td><a class="textLink" href="">Hardik Pandya</a></td>
+                        <td></td>
+                        <td>4</td>
+                        <td>0</td>
+                        <td>19</td>
+                        <td><b>1</b></td>
+                        <td>0</td>
+                        <td>4.80</td>
+                    </tr>
+                    <tr>
+                        <td><a class="textLink" href="">Arshdeep Singh</a></td>
+                        <td></td>
+                        <td>4</td>
+                        <td>0</td>
+                        <td>33</td>
+                        <td><b>1</b></td>
+                        <td>0</td>
+                        <td>8.20</td>
+                    </tr>
+                    <tr>
+                        <td><a class="textLink" href="">Ashwin</a></td>
+                        <td></td>
+                        <td>4</td>
+                        <td>0</td>
+                        <td>26</td>
+                        <td><b>0</b></td>
+                        <td>0</td>
+                        <td>6.50</td>
+                    </tr>
+                    <thead class="secondthead">
+                        <tr>
+                            <th colspan="3">Powerplays</th>
+                            <th colspan="1">Overs</th>
+                            <th colspan="2"></th>
+                            <th colspan=""></th>
+                            <th colspan="">Runs</th>
+                        </tr>
+                    </thead>
+                    <tr>
+                        <td>Mandatory</td>
+                        <td></td>
+                        <td></td>
+                        <td>0.1-6</td>
+                        <td></td>
+                        <td><b></b></td>
+                        <td></td>
+                        <td>45</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="6">India Innings</th>
+                        <th colspan="2">165-3 (19 Ov)</th>
+                    </tr>
+                </thead>
+                <thead class="secondthead">
+                    <tr>
+                        <th colspan="3">Batter</th>
+                        <th>R</th>
+                        <th>B</th>
+                        <th>4s</th>
+                        <th>6s</th>
+                        <th>SR</th>
+                        <th></th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td><a class="textLink" href="">Rohit Sharma (c)</a></td>
+                        <td class="textColor" colspan="2">retd hurt</td>
+                        <td><b>11</b> </td>
+                        <td>5</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>220.00</td>
+                    </tr>
+                    <tr>
+                        <td><a class="textLink" href="">Suryakumar Yadav</a></td>
+                        <td class="textColor" colspan="2">c Alzarri Joseph b Dominic Drakes</td>
+                        <td><b>76</b></td>
+                        <td>44 </td>
+                        <td>8</td>
+                        <td>4</td>
+                        <td>172.73</td>
+                    </tr>
+
+                    <tr>
+                        <td><a class="textLink" href="">Shreyas Iyer</a> </td>
+                        <td class="textColor" colspan="2">st Devon Thomas b Akeal Hosein</td>
+                        <td><b>24</b></td>
+                        <td>27</td>
+                        <td>2</td>
+                        <td>0</td>
+                        <td>88.89</td>
+                    </tr>
+
+                    <tr>
+                        <td><a class="textLink" href="">Rishabh Pant (wk)</a></td>
+                        <td class="textColor" colspan="2">not out</td>
+                        <td><b>33</b></td>
+                        <td>26</td>
+                        <td>3</td>
+                        <td>1</td>
+                        <td>126.92</td>
+                    </tr>
+
+                    <tr>
+                        <td><a class="textLink" href="">Hardik Pandya</a></td>
+                        <td class="textColor" colspan="2">c Devon Thomas b Holder</td>
+                        <td><b>4</b></td>
+                        <td>6</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>66.67</td>
+                    </tr>
+                    <tr>
+                        <td><a class="textLink" href="">Deepak Hooda</a></td>
+                        <td class="textColor" colspan="2">not out</td>
+                        <td><b>10</b></td>
+                        <td>7</td>
+                        <td>1</td>
+                        <td>0</td>
+                        <td>142.86</td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="4">Extras </td>
+                        <td colspan="6"> <b>7</b> (b 1, lb 0, w 5, nb 1, p 0)</td>
+                    </tr>
+                    <tr>
+                        <td colspan="4">Total </td>
+                        <td colspan="5"> <b>165</b> (3 wkts, 19 Ov)</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Did not Bat</td>
+                        <td colspan="5"><a href="" class="textLink">Dinesh Karthik ,</a>
+                            <a href="" class="textLink">Ravichandran Ashwin ,</a>
+                            <a href="" class="textLink"> Bhuvneshwar Kumar ,</a>
+                            <a href="" class="textLink"> Avesh Khan ,</a>
+                            <a href="" class="textLink"> Arshdeep Singh</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="8" class="secondthead"><b>Fall Of Wickets</b></td>
+                    </tr>
+                    <tr>
+                        <td colspan="7">105-1 (<a href="" class="textLink">(Shreyas Iyer</a>, 11.3), 135-2 (<a href=""
+                                class="textLink">Suryakumar Yadav</a>, 14.3), 149-3
+                            (<a href="" class="textLink">Hardik Pandya</a>, 17.2)</td>
+                    </tr>
+
+                    <thead class="secondthead">
+                        <tr>
+                            <th colspan="2">Bowler</th>
+                            <th>O</th>
+                            <th>M</th>
+                            <th>R</th>
+                            <th>W</th>
+                            <th>WD</th>
+                            <th>ECO</th>
+                        </tr>
+                    </thead>
+                    <tr>
+                        <td><a class="textLink" href="">Obed McCoy</a></td>
+                        <td></td>
+                        <td>4</td>
+                        <td>0</td>
+                        <td>34</td>
+                        <td><b>0</b></td>
+                        <td>1</td>
+                        <td>8.50</td>
+                    </tr>
+                    <tr>
+                        <td><a class="textLink" href="">Alzarri Joseph</a></td>
+                        <td></td>
+                        <td>4</td>
+                        <td>0</td>
+                        <td>39</td>
+                        <td><b>0</b></td>
+                        <td>0</td>
+                        <td>9.80</td>
+                    </tr>
+                    <tr>
+                        <td><a class="textLink" href="">Dominic Drakes</a></td>
+                        <td></td>
+                        <td>4</td>
+                        <td>0</td>
+                        <td>33</td>
+                        <td><b>1</b></td>
+                        <td>0</td>
+                        <td>8.20</td>
+                    </tr>
+                    <tr>
+                        <td><a class="textLink" href="">Jason Holder</a></td>
+                        <td></td>
+                        <td>3</td>
+                        <td>0</td>
+                        <td>30</td>
+                        <td><b>1</b></td>
+                        <td>2</td>
+                        <td>10.00</td>
+                    </tr>
+                    <tr>
+                        <td><a class="textLink" href="">Akeal Hosein</a></td>
+                        <td></td>
+                        <td>4</td>
+                        <td>0</td>
+                        <td>28</td>
+                        <td><b>1</b></td>
+                        <td>2</td>
+                        <td>7.00</td>
+                    </tr>
+                    <thead class="secondthead">
+                        <tr>
+                            <th colspan="3">Powerplays</th>
+                            <th colspan="1">Overs</th>
+                            <th colspan="2"></th>
+                            <th colspan=""></th>
+                            <th colspan="">Runs</th>
+                        </tr>
+                    </thead>
+                    <tr>
+                        <td>Mandatory</td>
+                        <td></td>
+                        <td></td>
+                        <td>0.1-6</td>
+                        <td></td>
+                        <td><b></b></td>
+                        <td></td>
+                        <td>56</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div id="rightBox">
+                <h4>Latest News</h4>
+            <div>
+                <div><img src="https://www.cricbuzz.com/a/img/v1/100x77/i1/c240144/west-indies-are-currently-trai.jpg"
+                        alt="">
+                </div>
+                <div>
+                    <p class="firstPara">Middle order defects to work on as WI seek series parity in Florida leg</p>
+                    <p>2h ago</p>
+                </div>
+            </div>
+            <hr>
+            <div>
+                <div><img src="https://www.cricbuzz.com/a/img/v1/100x77/i1/c240143/nathan-ellis-returned-figures.jpg"
+                        alt="">
+                </div>
+                <div>
+                    <p class="firstPara">Ellis helps Spirit eke out a narrow win</p>
+                    <p>7h ago</p>
+                </div>
+            </div>
+            <hr>
+            <div>
+                <div><img src="https://www.cricbuzz.com/a/img/v1/100x77/i1/c240142/brunt-ran-through-new-zealand.jpg"
+                        alt="">
+                </div>
+                <div>
+                    <p class="firstPara">Clinical England top group with crushing win over New Zealand</p>
+                    <p>8h ago</p>
+                </div>
+            </div>
+            <hr>
+            <div>
+                <div><img src="https://www.cricbuzz.com/a/img/v1/100x77/i1/c240141/de-leede-scored-a-53-ball-64.jpg"
+                        alt="">
+                </div>
+                <div>
+                    <p class="firstPara">de Leede defiance not enough for Netherlands as New Zealand go one up</p>
+                    <p>15h ago</p>
+                </div>
+            </div>
+            <hr>
+            <div>
+                <div><img src="https://www.cricbuzz.com/a/img/v1/100x77/i1/c240140/tamim-is-having-a-good-run-as.jpg"
+                        alt="">
+                </div>
+                <div>
+                    <p class="firstPara">Tamim gets behind the ODI format</p>
+                    <p>16 ago</p>
+                </div>
+            </div>
+            <hr>
+            <div>
+                <div><img src="https://www.cricbuzz.com/a/img/v1/100x77/i1/c240139/ingram-hit-15-fours-and-three.jpg"
+                        alt="">
+                </div>
+                <div>
+                    <p class="firstPara">Ingram 155 helps Glamorgan pip Kent in high-scoring game</p>
+                    <p>16 ago</p>
+                </div>
+            </div>
+            <hr>
+            <div>
+                <button>More News</button>
+            </div>
+            <hr>
+        </div>
+    </div>
+</body>
+
+</html>

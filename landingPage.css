@@ -8,7 +8,7 @@ body {
 }
 
 #featuredMatches {
-    width: 79.3%;
+    width:970px;
     margin: auto;
     background-color: white;
     margin-bottom: -20px;
@@ -19,7 +19,7 @@ body {
 }
 
 #containerFrontPage {
-    width: 80%;
+    width: 980px;
     height: 100vh;
 
     margin: auto;
@@ -59,7 +59,6 @@ body {
 #scoresBox span {
     color: #a36501;
 }
-
 #scoresBox>div {
     border-right: 1px solid #ecebeb;
     margin-top: 20px;
@@ -88,7 +87,9 @@ body {
 
 
 }
-
+.thinkTankHeading:hover{
+    text-decoration: underline;
+}
 
 .tealHeading {
     margin-left: 10px;
@@ -98,8 +99,20 @@ body {
 .newsTitle {
     margin-left: 20px;
     margin-right: 20px;
-}
 
+}
+.newsTitle:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.ThinkTankBoxBlueText:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.additionalDivH4:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
 .newsDate {
     margin-left: 20px;
     color: gray;
