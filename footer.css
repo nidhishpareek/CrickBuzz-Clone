@@ -1,19 +1,12 @@
-#landingPage{
+#landingPagefooter{
     max-width: 980px;
     margin:0 auto;
-}
-body{
-    background: #e3e6e3;
-    font-family: helvetica,"Segoe UI",Arial,sans-serif;
-    color: #222;
-    font-size: 14px;
-    line-height: 1.5;
 }
 
 footer{
     background-color: #4a4a4a;
-    width:100%;
-    position: fixed;
+    width:980px;
+    position: sticky;
     left:0;
     bottom: 0;
 }
@@ -52,7 +45,7 @@ footer{
     padding-bottom: 10px;
     color:white;
 }
-i{
+footerTopic i{
     padding: 10px;
 }
 #bottomline{
