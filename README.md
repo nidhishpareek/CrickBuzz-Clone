@@ -1,8 +1,9 @@
+![image](https://upload.wikimedia.org/wikipedia/commons/9/9c/Cricbuzz_Logo.png)
 
 # Cricbuzz - Clone
 
 Cricbuzz is a very popular sports website which mainly focuses on cricket. It helps individual to catch the live match scores, scorecard, schedules of international and domestic matches along with latest news and videos. 
-![image](https://iconape.com/wp-content/png_logo_vector/cricbuzz-logo.png)
+
 ## Introduction
 
 Hello, we are learning MERN Stack at Masai School. During our Unit-4 on this web development journey, we got the group project with my batchmates to clone the website of cricbuzz. We have tried to clone the website in the time span of 1 week only.
