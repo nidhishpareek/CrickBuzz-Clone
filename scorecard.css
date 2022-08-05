@@ -1,0 +1,129 @@
+body{
+    background-color: rgba(215, 221, 215, 0.877);
+    font-family: Arial, Helvetica, sans-serif;
+}
+table {
+    /* background-color: white; */
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    /* border: 1px solid red; */
+}
+#container{
+    /* border: 1px solid red; */
+    width:980px;
+    margin: auto;
+    background-color: white;
+}
+
+table caption {
+    color: #1866db;
+    font-size: 15px;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+thead {
+    background-color: #4a4a4a;
+    color: #fff;
+    padding: 8px 10px;
+}
+
+.secondthead {
+    background: #ecebeb;
+    color: #666;
+    font-size: 12px;
+    padding: 4px 10px;
+}
+
+td,
+th {
+    text-align: left;
+    padding: 8px;
+}
+
+tr {
+    border-bottom: 1px solid #ecebeb;
+}
+
+
+tbody tr:last-child {
+    border-bottom: 0px;
+}
+
+tbody {
+    font-size: 13px;
+    padding: 4px 10px;
+}
+
+.textLink {
+    color: #1866db;
+}
+
+.textLink:hover {
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+}
+
+.textColor {
+    color: #666;
+}
+
+
+/* rightbox css starts here */
+#container{
+    display: flex;
+
+}
+
+#rightBox{
+    width:50%;
+    margin-left: 0px;
+    margin-top: 5%;
+}
+#rightBox>div{
+    display:grid;
+    grid-template-rows: repeat(1,1fr);
+    grid-template-columns: repeat(2,1fr);
+}
+#rightBox>hr{
+    background-color: #ecebeb;
+}
+#rightBox>div>button{
+    color: white;
+    background-color: #009270;
+    border: none;
+    border-radius: 2px;
+    height: 30px;
+    width: 70%;
+    margin-left: 60%;
+    cursor: pointer;
+}
+#rightBox>div>button:hover{
+    background-color: #037a5f;
+}
+#rightBox>div>div>img{
+    display: block;
+    margin-left: 5%;
+    margin-top: 15%;
+}
+#rightBox>h4{
+    color: #009270;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.firstPara{
+    cursor: pointer;
+}
+.firstPara:hover{
+    text-decoration: underline;
+}

@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Cricbuzz</title>
+    <link rel="stylesheet" href="landingPage.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="shortcut icon" href="https://www.cricbuzz.com/images/cb_favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <div id="landingPage">
+        <header id="top">
+            <img id="logo" width="100px"src="https://www.cricbuzz.com/images/cb_logo.svg" alt="logo">
+            <div id="navbar">
+                <div class="dropdown">
+                    <button class="dropbtn"><a href="#">Live Scores</a></button>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn"><a href="#">Schedule</a></button>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn"><a href="#">Archives</a></button>
+                </div>
+                <div class="dropdown">
+                        <button class="dropbtn"><a href="">News <i class="fa-solid fa-caret-down"></i></a></button>
+                    <div class="dropdown_value">
+                        <a href="#">All Stories</a>
+                        <a href="#">Cricbuzz Plus</a>
+                        <a href="#">Latest News</a>
+                        <a href="#">Topics</a>
+                        <a href="#">Spotlight</a>
+                        <a href="#">Opinions</a>
+                        <a href="#">Specials</a>
+                        <a href="#">Stats & Analysis</a>
+                        <a href="#">Interviews</a>
+                        <a href="#">Live Blogs</a>
+                        <a href="#">Harsha Bhogle</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn"><a href="">Series <i class="fa-solid fa-caret-down"></i></a></button>
+                <div class="dropdown_value">
+                    <a href="#">India tour of WestIndies, 2022</a>
+                    <a href="#">Pakistan tour of Sri Lanka, 2022</a>
+                    <a href="#">South Africa tour of England, 2022</a>
+                    <a href="#">Bangladesh tour of Zimbabwe, 2022</a>
+                    <a href="#">New Zealand tour of Scotland, 2022</a>
+                    <a href="#">Tamil Nadu Premier League 2022</a>
+                    <a href="#">County Championship Division One 2022</a>
+                    <a href="#">Commonwealth Games Womens Cricket Competition 2022</a>
+                    <a href="#">All Series</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn"><a href="">Teams <i class="fa-solid fa-caret-down"></i></a></button>
+                <div class="dropdown_val">
+                    <div class="team">
+                        <h4>TEST TEAMS</h4>
+                        <a href="#">India</a>
+                        <a href="#">Ireland</a>
+                        <a href="#">Pakistan</a>
+                        <a href="#">Australia</a>
+                        <a href="#">Sri Lanka</a>
+                        <a href="#">Bangladesh</a>
+                        <a href="#">England</a>
+                        <a href="#">West Indies</a>
+                        <a href="#">South Africa</a>
+                        <a href="#">Zimbabwe</a>
+                        <a href="#">New Zealand</a>
+                        <a href="#">Afghanistan</a>
+                    </div>
+                    <div class="team">
+                        <h4>ASSOCIATE</h4>
+                        <a href="#">Italy</a>
+                        <a href="#">Botswana</a>
+                        <a href="#">Belgium</a>
+                        <a href="#">Iran</a>
+                        <a href="#">Denmark</a>
+                        <a href="#">Singapore</a>
+                        <a href="#">Namibia</a>
+                        <a href="#">Uganda</a>
+                        <a href="#">Malasiya</a>
+                        <a href="#">Nepal</a>
+                        <a href="#">Germany</a>
+                        <a href="#">Canada</a>
+                    </div>
+                </div>
+            </div>                
+                <div class="dropdown">
+                    <button class="dropbtn"><a href="">Videos <i class="fa-solid fa-caret-down"></i></a></button>
+                    <div class="dropdown_value">
+                        <a href="#">All Videos</a>
+                        <a href="#">Categories</a>
+                        <a href="#">Playlists</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn"><a href="">Rankings <i class="fa-solid fa-caret-down"></i></a></button>
+                <div class="dropdown_value">
+                    <a href="#">ICC Rankings - Men</a>
+                    <a href="#">ICC Rankings - Women</a>
+                </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn"><a href="">More <i class="fa-solid fa-caret-down"></i></a></button>
+                <div class="dropdown_value">
+                    <a href="#">World Test Championship</a>
+                    <a href="#">World Cup Super League</a>
+                    <a href="#">Quiz</a>
+                    <a href="#">Photos</a>
+                    <a href="#">Mobile Apps</a>
+                    <a href="#">Careers</a>
+                    <a href="#">Contact Us</a>
+                </div>
+                </div>
+                <button id="cricPlusbtn"><a href="cricPlus.html">Cricbuzz Plus</a></button>
+            </div>
+            <i  id="search" class="fa-solid fa-magnifying-glass "></i>
+            <div id="icons">
+                <i id="profileIcon" class="fa-solid fa-user "></i>
+                <div id="loginStatus">
+                    <a href="">My Account</a>
+                    <a href="">Sign Out</a>
+                </div>
+            </div>
+        </header>
+        <div id="blackStrip">
+            <div>
+                <a href="#">MATCHES</a>
+                <a href="#">WI vs IND - IND Won</a>
+                <a href="#">AUSW vs PAKW - Com...</a>
+                <a href="#">INDW vs BAW - Preview</a>
+                <a href="#">SOU vs WEF - Preview</a>
+                <a href="#">IRE vs RSA - Preview</a>
+            </div>
+                <button><a href="">ALL <i class="fa-solid fa-caret-down"></i></a></button>
+        </div>
+    </div>
+    <div id="featuredMatches">
+        <h2>FEATURED MATCHES</h2>
+    </div>
+    <div id="containerFrontPage">
+        <div id="scoresBox">
+
+            <div onclick="scorecard">
+                <p>West Indies</p>
+                <p>India</p>
+                <span ><a href="scorecard.html" style="text-decoration:none ; cursor: pointer;">India Won By 7 Wkts</a> </span>
+
+            </div>
+            <div>
+                <p><b>LKK- 138-9 (17)</b></p>
+                <p><b>CSG- 14-2 (4)</b></p>
+                <span>No result due to rain</span>
+
+            </div>
+            <div>
+                <p>SCO 306 (49.4)</p>
+                <p><b>NZ 307-3 (45.5)</b></p>
+                <span>New Zealand won by 7 wkts</span>
+
+            </div>
+            <div id="lastdiv">
+                <p> <b>RSA 191-5 (20)</b></p>
+                <p>ENG 101 (16.4)</p>
+                <span>South Africa won by 90 runs</span>
+
+            </div>
+           <div class="slider">
+            <img src="https://www.cricbuzz.com/images/view_next.png" class="sliderImg" alt="">
+           </div>
+        </div>
+        <div id="latestNewsBox">
+            <h4 class="tealHeading">LATEST NEWS</h4>
+            <p class="newsTitle">Deandra Dottin retires from international cricket</p>
+            <p class="newsDate">7h ago</p>
+            <div class="line"></div>
+            <p class="newsTitle">'Rewarded for bowling in right areas' - Mosaddek after five-fer</p>
+            <p class="newsDate">17h ago</p>
+            <div class="line"></div>
+            <p class="newsTitle">Nurul Hasan ruled out of ongoing tour of Zimbabwe</p>
+            <p class="newsDate">17h ago</p>
+            <div class="line"></div>
+            <p class="newsTitle">Florida T20Is: CWI preparing Plan B as India, WI personnel yet to get US visas</p>
+            <p class="newsDate"> 21h ago</p>
+            <div class="line"></div>
+            <p class="newsTitle">Nurul urges bowlers to improve at the death</p>
+            <p class="newsDate">1d ago</p>
+            <div class="line"></div>
+            <p class="newsTitle">India's Asia Cup and T20 WC squad likely to be same</p>
+            <p class="newsDate">1d ago</p>
+            <div class="line"></div>
+            <p class="newsTitle">Sundar, Deepak Chahar return for Zimbabwe ODIs; Tripathi called up</p>
+            <p class="newsDate">1d ago</p>
+            <div class="line"></div>
+            <p class="newsTitle">Shpageeza Cricket League rocked by explosion</p>
+            <p class="newsDate">2d ago</p>
+            <div class="line"></div>
+            <p class="newsTitle">We want to create our own brand of cricket - Nurul Hasan</p>
+            <p class="newsDate">Jul 29 2022</p>
+            <div class="endLine"></div>
+
+
+
+            <h4 class="tealHeading">LATEST PHOTOS</h4>
+            <img width="200px" class="latestPhotosImg"
+                src="https://www.cricbuzz.com/a/img/v1/165x95/i1/c239897/west-indies-vs-india-1st-t20i.jpg" alt="">
+            <p class="newsTitle">West Indies vs India, 1st T20I, Trinidad</p>
+            <p class="newsDate">Fri, Jul 29 2022</p>
+            <div class="latestPhotosLineDiv"></div>
+            <img width="200px" class="latestPhotosImg"
+                src="https://www.cricbuzz.com/a/img/v1/165x95/i1/c239833/sri-lanka-vs-pakistan-2nd-tes.jpg" alt="">
+            <p class="newsTitle">Sri Lanka vs Pakistan, 2nd Test, Day 5, Galle</p>
+            <p class="newsDate">Thu, Jul 28 2022</p>
+            <div class="latestPhotosLineDiv"></div>
+            <img width="200px" class="latestPhotosImg"
+                src="https://www.cricbuzz.com/a/img/v1/165x95/i1/c239794/west-indies-vs-india-3rd-odi.jpg" alt="">
+            <p class="newsTitle">West Indies vs India, 3rd ODI</p>
+            <p class="newsDate">Wed, Jul 27 2022</p>
+            <div class="latestPhotosLineDiv"></div>
+            <img width="200px" class="latestPhotosImg"
+                src="https://www.cricbuzz.com/a/img/v1/165x95/i1/c239771/sri-lanka-vs-pakistan-2nd-tes.jpg" alt="">
+            <p class="newsTitle">Sri Lanka vs Pakistan, 2nd Test, Day 4, Galle</p>
+            <p class="newsDate">Wed, Jul 27 2022</p>
+            <div class="latestPhotosLineDiv"></div>
+            <img width="200px" class="latestPhotosImg"
+                src="https://www.cricbuzz.com/a/img/v1/165x95/i1/c239737/sri-lanka-vs-pakistan-2nd-tes.jpg" alt="">
+            <p class="newsTitle">Sri Lanka vs Pakistan, 2nd Test, Day 3, Galle</p>
+            <p class="newsDate">Tue, Jul 26 2022</p>
+            <div class="latestPhotosLineDiv"></div>
+            <img width="200px" class="latestPhotosImg"
+                src="https://www.cricbuzz.com/a/img/v1/165x95/i1/c239717/sri-lanka-vs-pakistan-2nd-tes.jpg" alt="">
+            <p class="newsTitle">Sri Lanka vs Pakistan, 2nd Test, Day 2, Galle</p>
+            <p class="newsDate">Mon, Jul 25 2022</p>
+            <div class="endLine"></div>
+
+            <h3 class="tealHeading">SCHEDULE</h3>
+            <p class="newsTitle">West Indies vs India, 2nd T20I</p>
+            <p class="newsDate">Mon Aug 01 • 8:00 PM GMT</p>
+            <div class="line"></div>
+            <p class="newsTitle">West Indies vs India, 3rd T20I</p>
+            <p class="newsDate">Tue Aug 02 • 8:00 PM GMT
+            </p>
+            <div class="line"></div>
+            <p class="newsTitle">Zimbabwe vs Bangladesh, 3rd T20I</p>
+            <p class="newsDate">Tue Aug 02 • 4:30 PM GMT</p>
+            <div class="line"></div>
+            <p class="newsTitle">Ireland vs South Africa, 1st T20I</p>
+            <p class="newsDate">Wed Aug 03 • 4:30 PM GMT</p>
+            <div class="line"></div>
+            <p class="newsTitle">Netherlands vs New Zealand, 1st T20I</p>
+            <p class="newsDate">Thu Aug 04 • 8:30 PM GMT</p>
+            <div class="line"></div>
+            <p class="newsTitle">Ireland vs South Africa, 2nd T20I</p>
+            <p class="newsDate">Fri Aug 05 • 4:30 PM GMT</p>
+            <div class="line"></div>
+            <p class="newsTitle">Zimbabwe vs Bangladesh, 1st ODI</p>
+            <p class="newsDate">Fri Aug 05 • 12:45 PM GMT</p>
+            <div class="line"></div>
+            <p class="newsTitle">Netherlands vs New Zealand, 2nd T20I</p>
+            <p class="newsDate">Fri Aug 05 • 8:30 PM GMT</p>
+            <div class="line"></div>
+            <p class="moreMatches">More Matches..</p>
+        </div>
+
+
+        <div id="thinkTankBox">
+            <p class="newthinkTankBox">THINK TANK</p>
+            <img width="400px" class="thinkTankImf"
+                src="https://www.cricbuzz.com/a/img/v1/420x235/i1/c239972/what-england-can-learn-from-in.jpg" alt="">
+            <h2 class="thinkTankHeading">What England can learn from India in white-ball cricket</h2>
+            <p class="newthinkTankBox">England have just endured their least successful white-ball season since they
+                started
+                playing Twenty20 internationals.
+                Where is it all going wrong, and what tips could they pick up from India?</p>
+            <div class="thinkTankLineThrough"></div>
+            <p class="newthinkTankBox">INDIA TOUR OF WEST INDIES, 2022</p>
+            <img width="400px" class="thinkTankImf"
+                src="https://www.cricbuzz.com/a/img/v1/420x235/i1/c239950/india-look-to-double-their-lea.jpg" alt="">
+            <h2 class="thinkTankHeading">India look to double their lead against sloppy West Indies</h2>
+            <p class="thinkTankHeading">India recorded a thumping 63-run victory in the series opener</p>
+            <p class="ThinkTankBoxBlueText">Problem-solver Arshdeep Singh a World Cup option for India?</p>
+            <div class="thinkTankLineThrough"></div>
+            <p class="newthinkTankBox">ENG VS RSA, 3RD T20I</p>
+            <img width="400px" class="thinkTankImf"
+                src="https://www.cricbuzz.com/a/img/v1/420x235/i1/c239963/south-africa-blow-england-away.jpg" alt="">
+            <h2 class="thinkTankHeading">South Africa blow England away to clinch series</h2>
+            <p class="newthinkTankBox">Shamsi bags fifer after fifties from Hendricks and Markram as visitors seal 2-1
+                series
+                win</p>
+            <p class="thinkTankHeading">REPORT / Shami picks maiden T20I fiferFrom De Kock to Hendricks, and back around
+                cricket's galaxy</p>
+            <div class="thinkTankLineThrough"></div>
+            <p class="newthinkTankBox">BIRMINGHAM CWG 2002</p>
+            <img width="400px" class="thinkTankImf"
+                src="https://www.cricbuzz.com/a/img/v1/420x235/i1/c239954/mandhana-rana-star-in-indias.jpg" alt="">
+            <h2 class="thinkTankHeading">Mandhana, Rana star in India's comprehensive win</h2>
+            <p class="newthinkTankBox">India registered an eight wicket victory against Pakistan for their first points
+                in the
+                Birmingham Commonwealth Games 2022</p>
+            <p class="ThinkTankBoxBlueText">Alana King spins a web as Australia complete demolition job</p>
+            <p class="ThinkTankBoxBlueText">Bowlers set up England's win over Sri Lanka</p>
+            <p class="ThinkTankBoxBlueText">Bates, Devine fire NZ to winning start</p>
+            <p class="ThinkTankBoxBlueText">Women's Cricket at CWG 2022: A ready reckoner</p>
+            <div class="thinkTankLineThrough"></div>
+            <p class="newthinkTankBox">TRAVEL HURDLES</p>
+            <img width="400px" class="thinkTankImf"
+                src="https://www.cricbuzz.com/a/img/v1/420x235/i1/c239952/florida-t20is-cwi-preparing-p.jpg" alt="">
+            <h2 class="thinkTankHeading">Florida T20Is: CWI preparing Plan B as India, WI personnel yet to get US visas
+            </h2>
+            <p class="newthinkTankBox">Central Broward Park, Lauderhill in the US has been designated to host the August
+                6 and 7
+                games of the ongoing five-match series</p>
+            <div class="thinkTankLineThrough"></div>
+            <p class="newthinkTankBox">RETIREMENT</p>
+            <img width="400px" class="thinkTankImf"
+                src="https://www.cricbuzz.com/a/img/v1/420x235/i1/c239969/deandra-dottin-retires-from-in.jpg" alt="">
+            <h2 class="thinkTankHeading">Deandra Dottin retires from international cricket</h2>
+            <p class="newthinkTankBox">It remains unclear if Dottin will play Barbados's last match of the CWG group
+                stage,
+                against India, but she has stated that she will be available play domestic cricket around the world</p>
+            <div class="thinkTankLineThrough"></div>
+            <p class="newthinkTankBox">ROAD TO THE WORLD CUP</p>
+            <img width="400px" class="thinkTankImf"
+                src="https://www.cricbuzz.com/a/img/v1/420x235/i1/c239944/indias-asia-cup-and-t20-wc-sq.jpg" alt="">
+            <h2 class="thinkTankHeading">India's Asia Cup and T20 WC squad likely to be same</h2>
+            <p class="newthinkTankBox">The likes of Virat Kohli, Jasprit Bumrah and KL Rahul are expected to return for
+                the Asia
+                Cup</p>
+            <p class="ThinkTankBoxBlueText">Sundar, Deepak Chahar return for Zimbabwe ODIs; Tripathi called up</p>
+            <div class="thinkTankLineThrough"></div>
+
+            <p class="newthinkTankBox">BANGLADESH TOUR OF ZIMBABWE, 2022</p>
+            <div class="additionalDivFlexBox">
+                <img width="200px" class="additionalDivImg"
+                    src="https://www.cricbuzz.com/a/img/v1/135x75/i1/c239956/mosaddek-five-fer-helps-bangla.jpg" alt="">
+                <h4 class="additionalDivH4">Mosaddek five-fer helps Bangladesh level series</h4>
+            </div>
+            <p class="newthinkTankBox">A target of 136 was chased down with ease with Liton Das scoring a half-century
+            </p>
+            <div class="thinkTankLineThrough"></div>
+            <p class="newthinkTankBox">NEW ZEALAND TOUR OF SCOTLAND, 2022</p>
+            <div class="additionalDivFlexBox">
+                <img width="200px" class="additionalDivImg"
+                    src="https://www.cricbuzz.com/a/img/v1/135x75/i1/c239965/chapman-sizzles-again-as-new-z.jpg" alt="">
+                <h4 class="additionalDivH4">Chapman sizzles again as New Zealand ace 307 chase</h4>
+            </div>
+            <p class="newthinkTankBox">Daryl Mitchell hit an unbeaten 74 and was involved in a 175-run stand alongside
+                Chapman
+            </p>
+            <div class="thinkTankLineThrough"></div>
+            <p class="newthinkTankBox">PAKISTAN TOUR OF SRI LANKA, 2022</p>
+            <div class="additionalDivFlexBox">
+                <img width="200px" class="additionalDivImg"
+                    src="https://www.cricbuzz.com/a/img/v1/135x75/i1/c239839/gave-my-everything-to-reach-th.jpg" alt="">
+                <h4 class="additionalDivH4">Gave my everything to reach the Test cricket goal: Jayasuriya</h4>
+            </div>
+            <p class="newthinkTankBox">Having starred in Sri Lanka's series-levelling win over Pakistan, the left-arm
+                spinner
+                reflected on his tough journey</p>
+            <div class="thinkTankLineThrough"></div>
+            <p class="newthinkTankBox">ASIA CUP 2022</p>
+            <div class="additionalDivFlexBox">
+                <img width="200px" class="additionalDivImg"
+                    src="https://www.cricbuzz.com/a/img/v1/135x75/i1/c239773/asia-cup-2022-officially-moved.jpg" alt="">
+                <h4 class="additionalDivH4">Asia Cup 2022 officially moved to UAE</h4>
+            </div>
+            <p class="newthinkTankBox">Sri Lanka Cricket will retain hosting rights of the tournament, which will be
+                played
+                between August 27 and September 11</p>
+            <div class="thinkTankLineThrough"></div>
+            <p class="newthinkTankBox">CWC CHALLENGE LEAGUE A</p>
+            <div class="additionalDivFlexBox">
+                <img width="200px" class="additionalDivImg"
+                    src="https://www.cricbuzz.com/a/img/v1/135x75/i1/c239968/canada-extend-lead-denmark-se.jpg" alt="">
+                <h4 class="additionalDivH4">Canada extend lead; Denmark see off Qatar challenge</h4>
+            </div>
+            <p class="newthinkTankBox">Canada registered a 121-run win over Malaysia n the CWC Challenge League A and
+                have gone
+                four points clear of Singapore</p>
+            <div class="thinkTankLineThrough"></div>
+            <p class="newthinkTankBox">PLAYER SPOTLIGHT</p>
+            <div class="additionalDivFlexBox">
+                <img width="200px" class="additionalDivImg"
+                    src="https://www.cricbuzz.com/a/img/v1/135x75/i1/c239938/usman-rafiq-burning-bright-af.jpg" alt="">
+                <h4 class="additionalDivH4">Usman Rafiq: Burning bright after a tragedy</h4>
+            </div>
+            <p class="newthinkTankBox">With three player-of-the-match performances in as many games, Rafiq has been a
+                rip-roaring success in the Minor League but the fact that he's playing is in itself an act of courage
+            </p>
+            <div class="thinkTankLineThrough"></div>
+            <p class="newthinkTankBox">50-OVER CRICKET</p>
+            <div class="additionalDivFlexBox">
+                <img width="200px" class="additionalDivImg"
+                    src="https://www.cricbuzz.com/a/img/v1/135x75/i1/c239777/icc-strongly-defends-odi-forma.jpg" alt="">
+                <h4 class="additionalDivH4">ICC strongly defends ODI format</h4>
+            </div>
+            <p class="newthinkTankBox">In the backdrop of South Africa withdrawing from their ODI tour of Australia and
+                Ben
+                Stokes quitting the format, many have questioned the relevance of 50-over cricket</p>
+            <p class="ThinkTankBoxBlueText">Lord's to host WTC finals of 2023 and 2025</p>
+            <p class="ThinkTankBoxBlueText">India to host 2025 Women's World Cup</p>
+            <div class="thinkTankLineThrough"></div>
+            <p class="newthinkTankBox">SHPAGEEZA CRICKET LEAGUE</p>
+            <div class="additionalDivFlexBox">
+                <img width="200px" class="additionalDivImg"
+                    src="https://www.cricbuzz.com/a/img/v1/135x75/i1/c239917/shpageeza-cricket-league-rocke.jpg" alt="">
+                <h4 class="additionalDivH4">Shpageeza Cricket League rocked by explosion</h4>
+            </div>
+            <p class="newthinkTankBox">No casualties were reported but four spectators were injured in the blast</p>
+            <div class="thinkTankLineThrough"></div>
+
+
+        </div>
+
+        <div id="featuredVideos">
+            <img width="300px" class="specialsDiv"
+                src="https://static.clmbtech.com/ctn/29726/images/24/9251451367c467a89a7c499ec5e13e05_1632474563480_0.webp"
+                alt="">
+            <div class="endLine"></div>
+            <h4 class="tealHeading">FEATURED VIDEOS</h4>
+            <iframe class="videoSection" width="320" height="180" src="https://www.youtube.com/embed/-xaDYA08eoY"
+                frameborder="0"></iframe> 
+            <h4 class="thinkTankHeading">West Indies v India T20I: Preview</h4>
+            <p class="newsDate">2d ago</p>
+            <iframe class="videoSection" width="320" height="180" src="https://www.youtube.com/embed/R3mLQ1493Ns"
+                frameborder="0"></iframe>
+            <h4 class="thinkTankHeading">Captain Rohit Sharma knows how to unlock Karthik's potential: Parthiv Patel
+            </h4>
+            <p class="newsDate">2d ago</p>
+            <iframe class="videoSection" width="320" height="180" src="https://www.youtube.com/embed/ukOVc3VliPA"
+                frameborder="0"></iframe>
+            <h4 class="thinkTankHeading">Rohit & Dravid creating a free-flowingstyle of cricket for India: Harsha Bhogle
+            </h4>
+            <p class="newsDate">Jan 19 2021</p>
+            <button class="moreVidsBtn">More Videos</button>
+            <div class="endLine"></div>
+
+
+            <h3 class="tealHeading">SPECIALS</h3>
+            <img width="300px" class="specialsDiv"
+                src="https://www.cricbuzz.com/a/img/v1/300x170/i1/c238381/india-picked-rishabh-pant-to-o.jpg" alt="">
+            <h4 class="thinkTankHeading">On road to T20 World Cup: Subplots for India from England series</h4>
+            <p class="newsDate">What the three matches against England taught India in the lead-up to the T20 World Cup
+                in
+                Australia</p>
+
+            <img width="300px" class="specialsDiv"
+                src="https://www.cricbuzz.com/a/img/v1/300x170/i1/c236537/for-me-its-about-just-trying.jpg" alt="">
+            <h3 class="thinkTankHeading">Spin batting clinic with Steve Smith</h3>
+            <p class="newsDate">In this exclusive interview, Australia's batting talisman deconstructs his art of
+                playing
+                spin, the technique, the tempo and more</p>
+
+            <img width="300px" class="specialsDiv"
+                src="https://www.cricbuzz.com/a/img/v1/300x170/i1/c236159/joe-roots-batting-average-had.jpg" alt="">
+            <h3 class="thinkTankHeading">The imperial phase of Joe Root</h3>
+            <p class="newsDate">Joe Root is a great player - we can say that now, and start to wonder just how far he
+                might
+                go</p>
+
+            <img width="330px" class="specialsDiv"
+                src="https://www.cricbuzz.com/a/img/v1/300x170/i1/c235677/perfection-is-boring-she-be.jpg" alt="">
+            <h3 class="thinkTankHeading">The Mithali constant</h3>
+            <p class="newsDate">You'd be spoilt for choices trying to summarise the impact - both tangible and
+                intangible -
+                Mithali Raj's footprints left on the evolution of the women's sport in India</p>
+
+            <img width="330px" class="specialsDiv"
+                src="https://www.cricbuzz.com/a/img/v1/300x170/i1/c236035/salil-ankola-has-rediscovered.jpg" alt="">
+            <h4 class="thinkTankHeading">Alcoholic haze to rediscovering love for cricket - Ankola's flight to
+                redemption
+            </h4>
+            <p class="newsDate">The former India fast bowler is back to cricket after having endured a long journey away
+                from the game - of lost money, of anger issues, of alcoholism, of denial and despise towards the game
+            </p>
+
+            <img width="330px" class="specialsDiv"
+                src="https://www.cricbuzz.com/a/img/v1/300x170/i1/c236011/kamal-singhs-exploits-this-se.jpg" alt="">
+            <h4 class="thinkTankHeading">"I beat cancer because I wanted to play cricket"</h4>
+            <p class="newsDate">Kamal Singh, an opening batter for Uttarakhand, doesn't like to carry the burden of the
+                past. It's a part of his personality, much like the way he views his battle with blood cancer</p>
+
+            <img width="330px" class="specialsDiv"
+                src="https://www.cricbuzz.com/a/img/v1/300x170/i1/c236572/madhya-pradeshs-players-pose.jpg" alt="">
+            <h4 class="thinkTankHeading">MP's Ranji Trophy win - stories, bamboos and shenanigans</h4>
+            <p class="newsDate">How Chandrakant Pandit guided Madhya Pradesh to a historic Ranji Trophy triumph? Read to
+                know more...</p>
+
+            <img width="330px" class="specialsDiv"
+                src="https://www.cricbuzz.com/a/img/v1/300x170/i1/c236045/englands-list-of-injuries-is.jpg" alt="">
+            <h4 class="thinkTankHeading">Skidding away on the fast lane: England's injury distress</h4>
+            <p class="newsDate">England have been experiencing an unprecedented slew of injuries to their best fast
+                bowlers. What are the unique challenges that have contributed to this injury plague?</p>
+            <div class="line"></div>
+        </div>
+    </div>
+</body>
+</html>
