@@ -8,6 +8,11 @@ function addMail(){
     if(email==""){
         alert("Please fill email to continue")
     }else{
+        var checktnc = document.getElementById("check");
+        if(!checktnc.checked){
+            alert("Please agree to T&C");
+            return;
+        }
         localStorage.setItem("mailList",JSON.stringify(mailArr));
         window.location.href="otp.html"
     }
