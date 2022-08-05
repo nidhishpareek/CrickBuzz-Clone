@@ -10,6 +10,7 @@ body{
     font-size: 14px;
     line-height: 1.5;
 }
+
 #top{
     height: 48px;
     background-color: #009270;
@@ -38,7 +39,7 @@ body{
 .dropbtn{
     background-color: #009270;
     color: white;
-    padding: 16px 7px;
+    padding: 0px 7px;
     border: none;
 }
 .dropdown {
