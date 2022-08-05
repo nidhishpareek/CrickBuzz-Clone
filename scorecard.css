@@ -68,7 +68,12 @@ tbody {
 .textLink:hover {
     text-decoration: underline;
 }
-
+.playing11 >a{
+    color: black;
+}
+.playing11>a:hover{
+    text-decoration: underline;
+}
 a {
     text-decoration: none;
 }
