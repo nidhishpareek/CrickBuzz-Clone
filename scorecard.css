@@ -1,3 +1,6 @@
+
+
+
 body{
     background-color: rgba(215, 221, 215, 0.877);
     font-family: Arial, Helvetica, sans-serif;
@@ -68,7 +71,12 @@ tbody {
 .textLink:hover {
     text-decoration: underline;
 }
-
+.playing11 >a{
+    color: black;
+}
+.playing11>a:hover{
+    text-decoration: underline;
+}
 a {
     text-decoration: none;
 }
@@ -123,6 +131,9 @@ a {
 
 .firstPara{
     cursor: pointer;
+}
+.firstPara + p{
+    color: #666;
 }
 .firstPara:hover{
     text-decoration: underline;
