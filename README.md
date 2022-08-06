@@ -67,7 +67,7 @@ learning a technology is a different thing and showing what you have learnt is d
 
 ### Rushikesh Mali
   - [![portfolio](https://img.shields.io/badge/Gmail-red?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rushikeshmali226@gmail.com)
-  - [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/)
+  - [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rushikesh-mali-56400613b/)
   - [![twitter](https://img.shields.io/badge/GitHub-1DA1F2?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rushikesh226)
 
 ### Gulshan Sharma 
