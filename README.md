@@ -6,7 +6,7 @@ Cricbuzz is a very popular sports website which mainly focuses on cricket. It he
 
 ## Introduction
 
-Hello, we are learning MERN Stack at Masai School. During our Unit-4 on this web development journey, we got the group project with my batchmates to clone the website of cricbuzz. We have tried to clone the website in the time span of 1 week only.
+Hello, we are learning MERN Stack at Masai School. During our Unit-4 on this web development journey, we got the group project with our batchmates to clone the website of cricbuzz. We have tried to clone the website in the time span of 1 week only.
 
 ## Tech Stack Used
 
@@ -66,7 +66,7 @@ Hello, we are learning MERN Stack at Masai School. During our Unit-4 on this web
 
 ## Conclusions
 
-learning a technology is a different thing and showing what you have learnt is different thing. This project has given us the confidence to shoecase whatever we have learnt so far. This project also help us to learn those concept that can't be taught. Lastly I would like to thank all the team member of the group who coordinate remotely and let the project go smoothly.
+learning a technology is a different thing and showing what you have learnt is different thing. This project has given us the confidence to showcase whatever we have learnt so far. This project also help us to learn those concept that can't be taught during class. Lastly I would like to thank all the team member of the group who coordinate remotely and let the project go smoothly.
 
 ## 🔗 Team members
 
