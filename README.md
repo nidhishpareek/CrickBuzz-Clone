@@ -22,7 +22,7 @@ Hello, we are learning MERN Stack at Masai School. During our Unit-4 on this web
 
 ## Login Page
 
-- On the home page there is a option of profile icon clickin that icon will redirect the user to the login page.
+- On the home page there is a option of profile icon clicking that icon will redirect the user to the login page.
 - In the login page email id will be asked and then proceed to the otp page.
 - On the otp page user will be able to see the otp if user fill the wrong otp it will show an error else it will redirect the user to the payment plan page.
 - We have also include the feature of resend otp on the otp page.
