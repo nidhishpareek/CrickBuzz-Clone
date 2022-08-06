@@ -8,3 +8,24 @@ for (var i = 0; i < btns.length; i++) {
   this.className += " active";
   });
 }
+
+function my_profile(){
+  document.querySelector("#Manage-subs").style.display="none";
+  document.querySelector("#my-profile").style.display="inline";
+  document.querySelector("#Redeem-coupons").style.display="none";
+}
+function managesubs(){
+  document.querySelector("#Manage-subs").style.display="inline";
+  document.querySelector("#my-profile").style.display="none";
+  document.querySelector("#Redeem-coupons").style.display="none";
+}
+function redeemcoupon(){
+  document.querySelector("#Manage-subs").style.display="none";
+  document.querySelector("#my-profile").style.display="none";
+  document.querySelector("#Redeem-coupons").style.display="inline";
+}
+
+function signOut(){
+  localStorage.setItem("paymentstatus",false);
+  window.location.href="index.html";
+}

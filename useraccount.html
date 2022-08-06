@@ -25,51 +25,64 @@
           <div>MY ACCOUNT</div>
           <div id="line"></div>
           <div id="mylist">
-            <div class="btn active">
+            <div  onclick="my_profile()" class="btn active">
               <span
                 ><i class="fa-regular fa-circle-user fa-lg"></i> My Profile </span
               ><span><i class="fa-solid fa-chevron-right"></i></span>
             </div>
-            <div class="btn">
-              <span
-                ><i class="far fa-star"></i>Manage
-                Subscription</span
+            <div onclick="managesubs()" class="btn">
+              <span><i class="far fa-star"></i>Manage Subscription</span
+              ><span><i class="fa-solid fa-chevron-right"></i></span>
+            </div>
+            <div onclick="redeemcoupon()" class="btn">
+              <span><i class="fab fa-cc-amazon-pay"></i> Redeem Coupons</span
               ><span><i class="fa-solid fa-chevron-right"></i></span>
             </div>
             <div class="btn">
-              <span
-                ><i class="fab fa-cc-amazon-pay"></i> Redeem
-                Coupons</span
+              <span><i class="fas fa-ticket-alt fa-lg"></i> My Coupons</span
               ><span><i class="fa-solid fa-chevron-right"></i></span>
             </div>
             <div class="btn">
-              <span
-                ><i class="fas fa-ticket-alt fa-lg"></i> My
-                Coupons</span
+              <span><i class="far fa-credit-card"></i> Payment History</span
               ><span><i class="fa-solid fa-chevron-right"></i></span>
             </div>
             <div class="btn">
-              <span
-                ><i class="far fa-credit-card"></i> Payment
-                History</span
+              <span><i class="far fa-question-circle"></i> Get Support</span
               ><span><i class="fa-solid fa-chevron-right"></i></span>
             </div>
-            <div class="btn">
-              <span
-                ><i class="far fa-question-circle"></i> Get
-                Support</span
-              ><span><i class="fa-solid fa-chevron-right"></i></span>
-            </div>
-            <div class="btn">
-              <span
-                ><i class="fas fa-power-off"></i>Sign Out</span
-              >
+            <div onclick="signOut()" class="btn">
+              <span><i class="fas fa-power-off"></i>Sign Out</span>
             </div>
           </div>
         </div>
         <div id="side_div">
-          <div>MY PROFILE</div>
-          <div id="line"></div>
+          <div id="my-profile">
+            <div>MY PROFILE</div>
+            <div id="line"></div>
+            <div id="profile-content">
+              <img src="images/avatar.jpg" alt="" />
+              <p>Change Avatar</p>
+              <label for="">Username</label>
+              <input placeholder="Username" type="text" />
+              <label for="">Email</label>
+              <input placeholder="Email address" type="email" />
+              <button>Submit</button>
+            </div>
+          </div>
+          <div  id="Manage-subs">
+            <div>MANAGE SUBSCRIPTION</div>
+            <div id="line"></div>
+              <div id="div">Your Plan will expire on 8/8/2023</div>
+          </div>
+          <div  id="Redeem-coupons">
+            <div>REDEEM COUPONDS</div>
+            <div id="line"></div>
+              <div id="redeem-content">
+                <label for="">Enter Coupon Code</label>
+                <input placeholder="Coupon Code" type="text">
+                <button>Submit</button>
+              </div>
+          </div>
         </div>
       </div>
     </div>
