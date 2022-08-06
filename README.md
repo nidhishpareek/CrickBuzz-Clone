@@ -19,7 +19,7 @@ Hello, we are learning MERN Stack at Masai School. During our Unit-4 on this web
 - We have created the navigation bar which has dropdown menu on hover.
 - The Homepage of cricbuzz website shows the various Live Cricket Score, Scorecard, Schedules of International and Domestic cricket matches along with Latest News and related Videos.
 
-![image](https://user-images.githubusercontent.com/108894016/183240502-3527346a-473b-49ab-8d01-26e17513ec25.png)
+![image](https://user-images.githubusercontent.com/108894016/183241256-56331693-edb1-44f0-a919-39d5950fadbe.png)
 
 - User can see Navbar on the top section, some static information on middle part and at the bottom of the page there is a footer which we have build so far in this page.
 - We have also made a scorecard of one match which will be displayed by clicking on the first match.
