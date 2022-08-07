@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="useraccount.css" />
+    <link
+      rel="shortcut icon"
+      href="https://www.cricbuzz.com/images/cb_favicon.ico"
+      type="image/x-icon"
+    />
+    <script
+      src="https://kit.fontawesome.com/eba04dea05.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>
+      Live Cricket Score, Schedule, Latest News, Stats & Videos | Cricbuzz.com
+    </title>
+  </head>
+  <body>
+    <div id="account_container">
+      <div id="user_accout_main">
+        <div id="my_account">
+          <div>MY ACCOUNT</div>
+          <div id="line"></div>
+          <div id="mylist">
+            <div  onclick="my_profile()" class="btn active">
+              <span
+                ><i class="fa-regular fa-circle-user fa-lg"></i> My Profile </span
+              ><span><i class="fa-solid fa-chevron-right"></i></span>
+            </div>
+            <div onclick="managesubs()" class="btn">
+              <span><i class="far fa-star"></i>Manage Subscription</span
+              ><span><i class="fa-solid fa-chevron-right"></i></span>
+            </div>
+            <div onclick="redeemcoupon()" class="btn">
+              <span><i class="fab fa-cc-amazon-pay"></i> Redeem Coupons</span
+              ><span><i class="fa-solid fa-chevron-right"></i></span>
+            </div>
+            <div class="btn">
+              <span><i class="fas fa-ticket-alt fa-lg"></i> My Coupons</span
+              ><span><i class="fa-solid fa-chevron-right"></i></span>
+            </div>
+            <div class="btn">
+              <span><i class="far fa-credit-card"></i> Payment History</span
+              ><span><i class="fa-solid fa-chevron-right"></i></span>
+            </div>
+            <div class="btn">
+              <span><i class="far fa-question-circle"></i> Get Support</span
+              ><span><i class="fa-solid fa-chevron-right"></i></span>
+            </div>
+            <div onclick="signOut()" class="btn">
+              <span><i class="fas fa-power-off"></i>Sign Out</span>
+            </div>
+          </div>
+        </div>
+        <div id="side_div">
+          <div id="my-profile">
+            <div>MY PROFILE</div>
+            <div id="line"></div>
+            <div id="profile-content">
+              <img src="images/avatar.jpg" alt="" />
+              <p>Change Avatar</p>
+              <label for="">Username</label>
+              <input placeholder="Username" type="text" />
+              <label for="">Email</label>
+              <input placeholder="Email address" type="email" />
+              <button>Submit</button>
+            </div>
+          </div>
+          <div  id="Manage-subs">
+            <div>MANAGE SUBSCRIPTION</div>
+            <div id="line"></div>
+              <div id="div">Your Plan will expire on 8/8/2023</div>
+          </div>
+          <div  id="Redeem-coupons">
+            <div>REDEEM COUPONDS</div>
+            <div id="line"></div>
+              <div id="redeem-content">
+                <label for="">Enter Coupon Code</label>
+                <input placeholder="Coupon Code" type="text">
+                <button>Submit</button>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+<script src="useraccoount.js"></script>
