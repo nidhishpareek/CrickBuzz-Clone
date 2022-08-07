@@ -1,3 +1,6 @@
+body{
+    margin: 0%;
+}
 #landingPagefooter{
     max-width: 980px;
     margin:10px auto;
@@ -5,13 +8,13 @@
 
 footer{
     background-color: #4a4a4a;
-    width:980px;
+    width:100%;
     position: sticky;
     left:0;
     bottom: 0;
 }
 #mainFoot{
-    width: 980px;
+    width: 100%;
     margin: auto;
     display: flex;
     flex-direction: row;
@@ -45,10 +48,21 @@ footer{
     padding-bottom: 10px;
     color:white;
 }
-footerTopic i{
+.footerTopic i{
     padding: 10px;
 }
 #bottomline{
     color: white;
     text-align: center;
+}
+
+@media only screen and (max-width:850px){
+    #mainFoot{
+        flex-direction: column;
+        align-items: center;
+    }
+    #landingPagefooter{
+        width: 100%;
+    }
+    
 }

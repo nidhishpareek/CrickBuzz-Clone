@@ -5,8 +5,7 @@
   box-sizing: border-box;
 }
 body {
-  width: 980px;
-  margin: auto;
+ 
   background: #e3e6e3;
   font-family: helvetica, "Segoe UI", Arial, sans-serif;
   color: #222;
@@ -14,7 +13,12 @@ body {
   line-height: 1.5;
   margin-top: 3px;
 }
+#cricPlus_plus_page{
+  width: 980px;
+  margin: auto;
+}
 .container {
+ 
   color: #fff;
   height: 273px;
   align-content: center;
@@ -53,7 +57,11 @@ h2 {
   margin: 0;
   line-height: 30px;
 }
-
+hr{
+  border: none;
+  height: 1px;
+  background-color: black;
+}
 h2 {
   font-size: 24px;
   margin: 0;
@@ -167,6 +175,9 @@ a {
 }
 
 @media only screen and (max-width: 850px) {
+  #cricPlus_plus_page{
+    width: 100%;
+  }
   body {
     width: 100%;
     margin: 0%;
