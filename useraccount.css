@@ -61,7 +61,7 @@ i{
     margin-top: 30px;
 }
 
-img{
+#account_container img{
     width: 60px;
     margin: auto;
     border-radius: 50%;
@@ -84,7 +84,7 @@ input[type="text"]
 
     
 }
-button{
+#account_container>button{
     text-align: center;
     padding: 10px 30px;
     border-radius: 4px;
@@ -117,7 +117,7 @@ input:hover{
         grid-template-columns: 1fr;
     }
     #account_container{
-        width: 490px;
+        width: 100%;
     }
     #user_accout_main{
         width: 80%;
