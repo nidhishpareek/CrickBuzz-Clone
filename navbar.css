@@ -166,6 +166,7 @@ body{
 }
 #profileIcon{
     margin: 5px 5px;
+    color: #fff;
 }
 #loginStatus{
     display: none;

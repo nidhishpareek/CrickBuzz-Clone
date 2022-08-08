@@ -8,21 +8,19 @@ body {
 }
 
 #featuredMatches {
-    width: 980px;
+    width:970px;
     margin: auto;
-    box-sizing: border-box;
     background-color: white;
     margin-bottom: -20px;
     padding-top: 2px;
     padding-left: 10px;
     color: #008080;
     font-size: 12px;
-    
 }
 
 #containerFrontPage {
     width: 980px;
-   
+    height: 100vh;
 
     margin: auto;
     display: grid;
@@ -42,6 +40,7 @@ body {
 }
 .sliderImg{
     width: 43px;
+    height: 43px;
     display: block;
     margin: auto;
     margin-top: 70%;
@@ -60,13 +59,13 @@ body {
 #scoresBox span {
     color: #a36501;
 }
-
 #scoresBox>div {
     border-right: 1px solid #ecebeb;
     margin-top: 20px;
     line-height: 1.4;
     margin: 15px 0;
     padding: 0 20px;
+    height: 60%;
     position: relative;
 }
 
@@ -88,7 +87,9 @@ body {
 
 
 }
-
+.thinkTankHeading:hover{
+    text-decoration: underline;
+}
 
 .tealHeading {
     margin-left: 10px;
@@ -98,8 +99,20 @@ body {
 .newsTitle {
     margin-left: 20px;
     margin-right: 20px;
-}
 
+}
+.newsTitle:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.ThinkTankBoxBlueText:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.additionalDivH4:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
 .newsDate {
     margin-left: 20px;
     color: gray;
