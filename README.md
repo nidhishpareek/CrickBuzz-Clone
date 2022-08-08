@@ -36,6 +36,12 @@ Hello, we are learning MERN Stack at Masai School. During our Unit-4 on this web
 - On the otp page user will be able to see the otp if user fill the wrong otp it will show an error else it will redirect the user to the payment plan page.
 - We have also include the feature of resend otp on the otp page.
 
+## My Account Page
+
+- We have also created one my account page where user can see his/her profile, manage subscription and can see older transactions.
+
+![image](https://user-images.githubusercontent.com/108894016/183431521-ff8ee224-962f-4fc7-8e3b-1917e02f200c.png)
+
 ## Payment Plan Page
 
 - After successful login, user will be shown the payment plan to choose. Choosing the plan will redirect the user to the payments page
@@ -72,7 +78,7 @@ learning a technology is a different thing and showing what you have learnt is d
 
 ### Nidhish Pareek 
   - [![portfolio](https://img.shields.io/badge/Gmail-red?style=for-the-badge&logo=gmail&logoColor=white)](mailto:pareek.np1@gmail.com)
-  - [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/)
+  - [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nidhishpareek)
   - [![twitter](https://img.shields.io/badge/GitHub-1DA1F2?style=for-the-badge&logo=github&logoColor=white)](https://github.com/nidhishpareek)
 
 ### Vinay Khairnar 
