@@ -22,7 +22,7 @@ body {
 
 #containerFrontPage {
     width: 980px;
-    max-height: calc(100vh-100px);
+   
 
     margin: auto;
     display: grid;
@@ -42,7 +42,6 @@ body {
 }
 .sliderImg{
     width: 43px;
-    height: 43px;
     display: block;
     margin: auto;
     margin-top: 70%;
@@ -68,7 +67,6 @@ body {
     line-height: 1.4;
     margin: 15px 0;
     padding: 0 20px;
-    height: 60%;
     position: relative;
 }
 
@@ -211,4 +209,25 @@ body {
     border-radius: 4px;
     margin-bottom: 30px;
     cursor: pointer;
+}
+
+@media only screen and (max-width: 850px) {
+    #containerFrontPage,
+    #featuredMatches{
+       width: 100%;
+    }
+
+    #containerFrontPage{
+        display: block;
+    }
+    #scoresBox{
+        flex-direction: column;
+    }
+    .sliderImg{
+        display: none;
+    }
+    .latestPhotosImg {
+        position: relative;
+        left: -80px;
+    }
 }
