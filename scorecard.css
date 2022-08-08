@@ -14,9 +14,7 @@ table {
     border-collapse: collapse;
     width: 100%;
     margin-top: 20px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
+    border-right: 1px solid rgba(130, 128, 128, 0.478);
     /* border: 1px solid red; */
 }
 
@@ -38,7 +36,8 @@ table caption {
 thead {
     background-color: #4a4a4a;
     color: #fff;
-    padding: 8px 10px;
+    font-size: 12px;
+    padding: 4px 10px;
 }
 
 .secondthead {
@@ -51,7 +50,7 @@ thead {
 td,
 th {
     text-align: left;
-    padding: 8px;
+    padding: 8px ;
 }
 
 tr {
@@ -133,7 +132,7 @@ a {
 #rightBox>div>div>img {
     display: block;
     margin: auto;
-    margin-left: 20%;
+    margin-left: 10px;
     margin-top: 15%;
 }
 
@@ -155,4 +154,13 @@ a {
 
 .firstPara:hover {
     text-decoration: underline;
+}
+@media only screen and (max-width:850px){
+    #rightBox{
+        display: none;
+    }
+    #container{
+        width: 100%;
+        font-size: 12px;
+    }
 }

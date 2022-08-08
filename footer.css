@@ -49,7 +49,7 @@ footer{
     color:white;
 }
 .footerTopic i{
-    padding: 10px;
+    padding: 10px 10px 10px 0px;
 }
 #bottomline{
     color: white;
@@ -58,11 +58,17 @@ footer{
 
 @media only screen and (max-width:850px){
     #mainFoot{
-        flex-direction: column;
-        align-items: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    #mainFoot div:first-child{
+        grid-column: 2/-1;
+    }
+    #mainFoot div{
+        padding-left: 20px;
     }
     #landingPagefooter{
         width: 100%;
     }
-    
+
 }
