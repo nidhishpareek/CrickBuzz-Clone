@@ -155,7 +155,7 @@ a {
 .firstPara:hover {
     text-decoration: underline;
 }
-@media only screen and (max-width:850px){
+@media only screen and (max-width:980px){
     #rightBox{
         display: none;
     }

@@ -241,16 +241,19 @@ body {
   #plusbenefits {
     grid-template-columns: repeat(1, 300px);
   }
+  
   #selectYourPlan > div {
     grid-template-columns: repeat(1, 295px);
   }
   #plandetails {
+
     margin-top: 5px;
-    margin-left: 45px;
+    /* margin-left: 45px; */
+    margin: auto;
     min-width: 251px;
     width: 400px;
   }
   #planbanner#planbanner img {
-    display: block;
+    display: none;
   }
 }
