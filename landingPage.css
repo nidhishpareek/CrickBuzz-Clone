@@ -210,6 +210,23 @@ body {
     margin-bottom: 30px;
     cursor: pointer;
 }
+@media only screen and (min-width: 850px) and (max-width: 1020px){
+    #containerFrontPage,
+    #featuredMatches{
+       width: 100%;
+    }
+
+    #thinkTankBox#thinkTankBox#thinkTankBox#thinkTankBox#thinkTankBox#thinkTankBox#thinkTankBox#thinkTankBox#thinkTankBox#thinkTankBox img{
+        width: 95%;
+    }
+    #featuredVideos#featuredVideos#featuredVideos#featuredVideos#featuredVideos#featuredVideos#featuredVideos#featuredVideos#featuredVideos#featuredVideos img{
+        width: 95%;
+    }
+    #featuredVideos#featuredVideos#featuredVideos#featuredVideos#featuredVideos#featuredVideos#featuredVideos#featuredVideos#featuredVideos#featuredVideos iframe{
+        width: 95%;
+        height: min-content;
+    }
+}
 
 @media only screen and (max-width: 850px) {
     #containerFrontPage,
