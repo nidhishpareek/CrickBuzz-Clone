@@ -20,7 +20,7 @@ body {
 
 #containerFrontPage {
     width: 980px;
-    height: 100vh;
+    height: 100vh-90px;
 
     margin: auto;
     display: grid;

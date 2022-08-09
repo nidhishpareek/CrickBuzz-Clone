@@ -151,7 +151,7 @@
           <a href="login.html"><i id="profileIcon" class="fa-solid fa-user"></i></a>
           <div id="loginStatus">
             <a  href="">My Account</a>
-            <a href="">Sign Out</a>
+            <a onclick="signOut()" href="index.html">Sign Out</a>
           </div>
         </div>
       </header>
@@ -172,18 +172,19 @@
   </body>
 </html>
 <script>
-  checkloginstatus()
-  function checkloginstatus() {
-    var logincheck = JSON.parse(localStorage.getItem("loginStatus"));
-    if (logincheck == true) {
-      console.log("already login");
-    } else {
-      console.log("login required");
-      var buttonforlogin = document.getElementById("loginStatus");
-      buttonforlogin.innerText = "";
+  // checkloginstatus()
+  // function checkloginstatus() {
+  //   var logincheck = JSON.parse(localStorage.getItem("loginStatus"));
+  //   if (logincheck == true) {
+  //     console.log("already login");
+  //   } else {
+  //     console.log("login required");
+  //     var buttonforlogin = document.getElementById("loginStatus");
+  //     buttonforlogin.innerText = "";
       // var attributetologin = document.createElement("a");
       // attributetologin.innerText = "Login";
       // attributetologin.setAttribute("href","login.html")
     }
   }
 </script>
+<script src="navbar.js"></script>
